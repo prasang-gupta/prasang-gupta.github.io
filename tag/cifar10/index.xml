@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CIFAR10 | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/cifar10/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/cifar10/index.xml" rel="self" type="application/rss+xml" />
+    <description>CIFAR10</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>CIFAR10</title>
+      <link>https://prasang-gupta.github.io/tag/cifar10/</link>
+    </image>
+    
+    <item>
+      <title>Active Learning</title>
+      <link>https://prasang-gupta.github.io/project/activelearning/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/activelearning/</guid>
+      <description>&lt;p&gt;The aim of the study was to try the effectiveness of active learning for cases where labelled data is scarce. The dataset chosen for this study was CIFAR10. This dataset contains 60,000 images of size 32x32 with 10 classes. The images are single label and are mutually exclusive from each other. We have used a maximum of 10,000 images at each time for trainig purposes.&lt;/p&gt;
+&lt;p&gt;This study&amp;rsquo;s focus was to compare the performance of active and passive learning on the same dataset size. The passive learning model would be trained on a uniform distribution of the dataset size, however, the active learning model would be initialised with half the training size and then would be trained for the full size by sequential queries. We have tried 3 queries in this study : uncertainty, margin sampling and entropy sampling. We achieved better performance with active learning for all the sizes, however, the difference between the performance of the two varied depending on the total size of the dataset going from as low as 1% to a sizable 23%. The details for all the experiments and the queries can be seen in the slides.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Demand Prediction with Competition Analysis</title>
+      <link>https://prasang-gupta.github.io/project/demandprediction/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/demandprediction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trainings Repository</title>
+      <link>https://prasang-gupta.github.io/project/lndrepo/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/lndrepo/</guid>
+      <description>&lt;p&gt;The aim of the study was to try the effectiveness of active learning for cases where labelled data is scarce. The dataset chosen for this study was CIFAR10. This dataset contains 60,000 images of size 32x32 with 10 classes. The images are single label and are mutually exclusive from each other. We have used a maximum of 10,000 images at each time for trainig purposes.&lt;/p&gt;
+&lt;p&gt;This study&amp;rsquo;s focus was to compare the performance of active and passive learning on the same dataset size. The passive learning model would be trained on a uniform distribution of the dataset size, however, the active learning model would be initialised with half the training size and then would be trained for the full size by sequential queries. We have tried 3 queries in this study : uncertainty, margin sampling and entropy sampling. We achieved better performance with active learning for all the sizes, however, the difference between the performance of the two varied depending on the total size of the dataset going from as low as 1% to a sizable 23%. The details for all the experiments and the queries can be seen in the slides.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

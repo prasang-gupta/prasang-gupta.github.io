@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electroporation | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/electroporation/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/electroporation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Electroporation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Electroporation</title>
+      <link>https://prasang-gupta.github.io/tag/electroporation/</link>
+    </image>
+    
+    <item>
+      <title>Macroscopic model for Transdermal Drug Delivery</title>
+      <link>https://prasang-gupta.github.io/project/transdermal/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/transdermal/</guid>
+      <description>&lt;p&gt;This project was part of my internship at TATA Research Design and Development Centre. The internship started May 2017 and ended July 2017. The objective of the project was to develop a macroscopic model of skin’s upper layer stratum corneum using OpenFoam, an open-source library. This library was chosen as this provided and open source FVM alternative to the licensed FEM solver, COMSOL. Apart from that, nobody in the firm had used it before, so it served as an exploration study into using this library. However, as I was able to finish the objective early, I also finished an extension of the project, which included studying the effects of electroporation on the drug transfer kinetics.&lt;/p&gt;
+&lt;p&gt;The first task was to get used to the OpenFOAM library which is completely CLI based. After getting a handle of the different methods and way of working, the first model was developed of the uppermost skin layer, Stratum Corneum using a parameterised brick and mortar structure. This model was then used to model a transdermal drug delivery by Fickian diffusion through the layer.&lt;/p&gt;
+&lt;p&gt;Fentanyl and Caffeine were chosen to be studied based on literature review and their scope of usage in transdermal delivery. The diffusion coefficients for these components were obtained from MD simulations. Running them through the developed model provided drug release profiles for both. These profiles were validated by experimental studies present in literature.&lt;/p&gt;
+&lt;p&gt;Since, there were a lot of files that needed to be modified to set up an OpenFOAM simulation, running iterations while maintaining correctness (not missing editing a file) was a steep task. Hence, I worked on automating the whole simulation process and file editing structure using C++ and Bash. This reduced simulation set up times drastically allowing me to run several iterations and complete the objective of my internship way before my internship end date.&lt;/p&gt;
+&lt;p&gt;As a result, I was able to extend the study to include the effects of electroporation on the drug delivery profiles. The new model developed with electroporation was again validated with experimental data and was found to be in good agreement. Also, the drug release significantly increased after using electroporation which was expected from the study.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

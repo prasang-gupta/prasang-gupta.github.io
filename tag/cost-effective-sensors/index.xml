@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cost-effective sensors | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/cost-effective-sensors/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/cost-effective-sensors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cost-effective sensors</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Cost-effective sensors</title>
+      <link>https://prasang-gupta.github.io/tag/cost-effective-sensors/</link>
+    </image>
+    
+    <item>
+      <title>Cross-country Asset Tracking</title>
+      <link>https://prasang-gupta.github.io/project/assettracking/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/assettracking/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;CLIENT PROBLEM&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The client were facing problems with cargo damage while in transit which were resulting in huge losses for them. Also, since the transit included multiple contractors responsible for different stretches of the overall route, and nobody was taking responsibility for the damages, they were at a loss and had no idea how to rectify this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;OUR SOLUTION&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We created an end-to-end asset tracking system for the client. The clients were given low-cost devices housing different sensors to include them with their shipments. These devices were very small (about 2cm x 2cm x 1cm) and were tested for harsh weather. Also, these devices were equipped with a battery, a GPS and cellular communication technology along with the accelerometer, humidity and temperature sensors. These were configured to be used as one time use devices to save on device recovery costs / logistics. They were configured to report information all along the journey and last the whole shipment time without the need of a recharge.&lt;/p&gt;
+&lt;p&gt;Thresholding was done on the accelerometer sensor housed in the device to store high impacts faced by it, which would directly correlate with the damage faced the equipment. These raw accelerometer values were then configured to be sent to the cloud managed by the manufacturer. This data was then available to be used using simple API requests.&lt;/p&gt;
+&lt;p&gt;The raw data collection and conversion to impact system was built on an application enablement platform. This resulted in quick prototyping and testing of the proof of concept. The processed data was then sent to a live dahsboard which was shared with the client for their perusal. This dashboard offered several important metrics such as the last known location, temperature and battery of the device. It also showed the impact values versus timestamp which were recorded by the device.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;VALUE GENERATED&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From using this solution, we were able to ascertain different impact values faced by the device during different portions of the journey. This helped the client to visualise and piece together possible regions where the shipment was getting damaged. Our analysis found that most of the impacts registered by the device were when the device was travelling from the factory to the ports, which was contrary to the earlier belief of the client that most of the damage was being caused during the ship route. This allowed the client to focus on that section and helped them save a lot of revenue spent on replacing damaged products as well as save the reputation of the company.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

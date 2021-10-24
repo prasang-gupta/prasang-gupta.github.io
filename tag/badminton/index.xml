@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Badminton | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/badminton/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/badminton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Badminton</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Badminton</title>
+      <link>https://prasang-gupta.github.io/tag/badminton/</link>
+    </image>
+    
+    <item>
+      <title>ABU Robocon 2015</title>
+      <link>https://prasang-gupta.github.io/project/robocon15/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/robocon15/</guid>
+      <description>&lt;p&gt;ROBOCON is an Asia-Pacific robotics competition held every year with different problem statements. The problem statements are carefully curated to encourage design innovations in the field of robotics. The problem statement for the year 2015 was to make 2 robots that will play a doubles badminton match with the other team&amp;rsquo;s robots. The choice of fully automated vs manual robots was provided by the organisers. I was a part of the 21 member team that took part in the competition represting my alma mater, IIT Kanpur. We worked on this from October 2014 to March 2015. We managed to achieve 11th rank among the 80 teams that participated from different technical institutions from all across India.&lt;/p&gt;
+&lt;p&gt;The 2 bots designed were capable of serving the shuttle cock across the net to land in a specific region designated as a &amp;lsquo;successful serve&amp;rsquo; by the organisers. They also had mechanisms to return the serve of the opposing team using different placements of badminton racquets. The image shows one of our robots that had a double pneumatic actuation mechanism in the center alongwith 2 side racquets to return the shuttle.&lt;/p&gt;
+&lt;p&gt;I was a part of the electronics team, managing the power delivery to the different components of the bot. Also, to reduce the clutter of wires, I designed Printed Circuit Boards (PCBs) of different components of the bot, eg. the motor driver, on Altium Designer and got them printed for use. I also had major contributions in designing the mechanism to serve the shuttlecock.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

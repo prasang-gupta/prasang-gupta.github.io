@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PID Tuning | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/pid-tuning/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/pid-tuning/index.xml" rel="self" type="application/rss+xml" />
+    <description>PID Tuning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>PID Tuning</title>
+      <link>https://prasang-gupta.github.io/tag/pid-tuning/</link>
+    </image>
+    
+    <item>
+      <title>PID Characteristics</title>
+      <link>https://prasang-gupta.github.io/project/innovationlabpid/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/innovationlabpid/</guid>
+      <description>&lt;p&gt;This was a part of the Unit Operations Lab course. The aim of this project was to innovate and go above and beyond the standard lab experiments with the same equipment.&lt;/p&gt;
+&lt;p&gt;We modelled the whole process in MATLAB Simulink deriving transfer functions from experimental data. Also, we took the default PID values present in the controller on the setup and tuned those values. We found that the response received is much better than the default response recorded. Hence, we submitted the parameters to be updated in the controller for more accurate experiments thereafter.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

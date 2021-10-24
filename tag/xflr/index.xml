@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XFLR | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/xflr/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/xflr/index.xml" rel="self" type="application/rss+xml" />
+    <description>XFLR</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>XFLR</title>
+      <link>https://prasang-gupta.github.io/tag/xflr/</link>
+    </image>
+    
+    <item>
+      <title>Composite Allegro 2m glider</title>
+      <link>https://prasang-gupta.github.io/project/glidermentor/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/glidermentor/</guid>
+      <description>&lt;p&gt;This was a voluntary project under the Aeromodelling Club in the summer holidays from May 2016 to July 2016. The aim of the project was to train a team to build a composite glider as well as try a new kind of HLG glider, the Allegro 2m.&lt;/p&gt;
+&lt;p&gt;As mentioned, the composite glider &amp;ldquo;Allegro 2m&amp;rdquo; was chosen for this project. The different airfoils were directly obtained from Prof. Mark Drela&amp;rsquo;s page and templates were cut using laser cutter. These templates were then used to cut the foam which would form the base of the wings / tails using a gravity hot wire cutter. These foam cuttings were then covered with an optimal number of glass fibre and carbon fibre sheets for providing it hte strength it needs. The optimum layers were calculated by designing a MATLAB code to take into account shear stress at different locations of the wing while in flight.&lt;/p&gt;
+&lt;p&gt;Contary to the previous glider that was developed, this glider was also polyhedral but there was no dihedral in the middle and there were 2 angles on each side totalling 4 dihedrals. This ensured much better construction as giving a dihedral in the middle is very tricky. These were carefully built to maintian the same angle to ensure roll stability. The hollow fuselage was developed from the previously developed moulds. The hollow tail was built using cross arranged rolled carbon fibre cloth. Lastly, the wings and tails were spray painted and then all of the components were assembled together.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Composite Aegea 2m glider</title>
+      <link>https://prasang-gupta.github.io/project/gliderself/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/gliderself/</guid>
+      <description>&lt;p&gt;This was a voluntary project under the Aeromodelling Club in the summer holidays from May 2015 to July 2015. The aim of the project was to build a composite glider. This was the first time that composite materials were being used in the Aeromodelling Club. This project opened up a whole array of opportunities for the club to divest into composite construction of other designs including flying wings, UAVs etc.&lt;/p&gt;
+&lt;p&gt;The composite glider &amp;ldquo;Aegea 2m&amp;rdquo; was chosen for this project. The different airfoils were directly obtained from Prof. Mark Drela&amp;rsquo;s page and templates were cut using laser cutter. These templates were then used to cut the foam which would form the base of the wings / tails using a gravity hot wire cutter. These foam cuttings were then covered with an optimal number of glass fibre and carbon fibre sheets for providing it hte strength it needs. The optimum layers were calculated by designing a MATLAB code to take into account shear stress at different locations of the wing while in flight.&lt;/p&gt;
+&lt;p&gt;The wings of the aegea were polyhedral with a dihedral in the middle and 1 more angle on each side totalling 3 dihedrals. These were carefully built to maintian the same angle to ensure roll stability. The hollow fuselage was developed from moulds which were again in turn made from composite materials. The hollow tail was built using cross arranged rolled carbon fibre cloth. Lastly, the wings and tails were spray painted and then all of the components were assembled together.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

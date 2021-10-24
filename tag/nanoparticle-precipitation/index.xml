@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nanoparticle precipitation | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/nanoparticle-precipitation/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/nanoparticle-precipitation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nanoparticle precipitation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Thu, 01 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Nanoparticle precipitation</title>
+      <link>https://prasang-gupta.github.io/tag/nanoparticle-precipitation/</link>
+    </image>
+    
+    <item>
+      <title>Numerical Investigation of Nanoparticle Precipitation in Y-Mixers</title>
+      <link>https://prasang-gupta.github.io/project/ymixer/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/ymixer/</guid>
+      <description>&lt;p&gt;This was an Undergraduate project under Prof. Nishith Verma which went on from March 2016 to December 2016. Our aim was to perform an investigation into the particle densities obtained by mixing two fluids in a Y-shaped mixture.&lt;/p&gt;
+&lt;p&gt;As a first step, the y mixer model was generated in C++ in 2 and later 3 dimensions and simulations were run using the Lattice Boltzmann method. This resulted in fluid flow diagrams which were matched with experiments. After validating this model, tracer analysis was done on the outputs. This ensured us to capture the cross section and the mixing capabilities of the mixer. This was again validated from experiments.&lt;/p&gt;
+&lt;p&gt;Having a C++ lattice boltzmann model ready, we moved on to using the palabos library to include population balance equations in our simulation model. This included the new calculations as well as sped up the entire code by about 40%. Nucleation rates and growth rates for the different particles were provided based on experimental chemical reactions and the population density of the product was studied at different cross sections of the mixer representing varying mixer sizes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

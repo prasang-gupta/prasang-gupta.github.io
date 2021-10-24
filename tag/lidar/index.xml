@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LIDAR | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/lidar/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/lidar/index.xml" rel="self" type="application/rss+xml" />
+    <description>LIDAR</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>LIDAR</title>
+      <link>https://prasang-gupta.github.io/tag/lidar/</link>
+    </image>
+    
+    <item>
+      <title>Occupancy Detection</title>
+      <link>https://prasang-gupta.github.io/project/occupancydetection/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/occupancydetection/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;CLIENT PROBLEM&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The client wanted to prepare for and ensure a safe transitioning of people from &amp;ldquo;Work from home&amp;rdquo; to Office space. They wanted to make sure that the facility should be used responsibly and at no time there should be breaches of the social distancing regulations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;OUR SOLUTION&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We prepared a solution that gave the client the ability to track and measure the occupancy and social distancing norms anonymously. We set up a LIDAR in the client office space attached with a hub to send the data to the cloud. Several calculations and checks were performed on the cloud and the final data was sent to the dashboard. The real time occupancy readings (both overall and zone-based) were also visualised by the dashboard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;VALUE GENERATED&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As a result of our solution, the client could monitor occupancy in real-time, track occupancy trends and monitor the hotspots in the office. This can further be used to optimise the office space usage.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAD Design | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/cad-design/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/cad-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAD Design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>CAD Design</title>
+      <link>https://prasang-gupta.github.io/tag/cad-design/</link>
+    </image>
+    
+    <item>
+      <title>ABU Robocon 2016</title>
+      <link>https://prasang-gupta.github.io/project/robocon16/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/robocon16/</guid>
+      <description>&lt;p&gt;ROBOCON is an Asia-Pacific robotics competition held every year with different problem statements. The problem statements are carefully curated to encourage design innovations in the field of robotics. The theme of the competition for the year 2016 was &amp;ldquo;Clean Energy recharging of world&amp;rdquo;. The problem statement was to make 2 robots, one being a powered robot and the other being a non-powered robot that will move using non-contact forces provided by the former. The aim was to make the non-powered robot travel on a path with elevation, curves, sharp turns etc autonomously using line following. This bot was carrying a lightweight fan. The other robot, in addition to providing the required force for the non-powered robot to move, had to collect the aforementioned fan from the non-powered robot after it had covered the entire stretch, climb a pole and then place the fan on the top of the pole. This would mark the completion (&amp;ldquo;Chai-Yo&amp;rdquo; as they called it) of the challenge and the team that achieves this first would win.&lt;/p&gt;
+&lt;p&gt;I was one of the leaders in the 21 member team that took part in the competition represting my alma mater, IIT Kanpur. We worked on this from October 2015 to March 2016. We managed to achieve 3rd rank amongst the 105 teams that participated from different technical institutions from all across India.&lt;/p&gt;
+&lt;p&gt;We chose to go with wind as the mode of force to move the non-powered robot. We used a propellor fan to generate the wind and a styrofoam sail was attached to the non-powered robot to catch the wind and propel it forward. This bot was made using lightweight balse wood and glass fibre which have an impressive strenght-to-weight ratio. We further designed the truss patterns on the wood and got it cut by laser to have the lightest possible bot. We also employed line tracking on the bot to follow the required path. These prototypes were first designed on Autodesk Inventor or Solidworks and then cut and assembled using precise machinery.&lt;/p&gt;
+&lt;p&gt;The powered bot had an autonomous climbing mechanism using rubberised clamp wheels. To follow the path and align itself to the pole, it used wall following to follow the arena wall. We were consistently able to achieve &amp;ldquo;Chai-Yo&amp;rdquo; in about 50 seconds of runtime (You can take a look at the video which has the complete run while we were still preparing for the competition).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;award.JPG&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semi-Autonomous Surveillance and Tranportation Robot</title>
+      <link>https://prasang-gupta.github.io/project/sastr/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/sastr/</guid>
+      <description>&lt;p&gt;This project was done as a part of the summer project offering from Robotics Club, IIT Kanpur. The aim of this project was to build an all-terrain robot capable of autonomous navigation and provide surveillance in remote areas.&lt;/p&gt;
+&lt;p&gt;We modelled the robot on Solidworks and machined it using aluminium and CNC machines. For navigation, we integrated the IMU sensor with the GPS anc coupled them together iwth a Kalman filter. Also, we imported Google Maps API for setting the route to be travelled and later converted the route into different waypoints to be followed. This waypoint file was uploaded to the robot&amp;rsquo;s APM (mission planner).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ABU Robocon 2015</title>
+      <link>https://prasang-gupta.github.io/project/robocon15/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/robocon15/</guid>
+      <description>&lt;p&gt;ROBOCON is an Asia-Pacific robotics competition held every year with different problem statements. The problem statements are carefully curated to encourage design innovations in the field of robotics. The problem statement for the year 2015 was to make 2 robots that will play a doubles badminton match with the other team&amp;rsquo;s robots. The choice of fully automated vs manual robots was provided by the organisers. I was a part of the 21 member team that took part in the competition represting my alma mater, IIT Kanpur. We worked on this from October 2014 to March 2015. We managed to achieve 11th rank among the 80 teams that participated from different technical institutions from all across India.&lt;/p&gt;
+&lt;p&gt;The 2 bots designed were capable of serving the shuttle cock across the net to land in a specific region designated as a &amp;lsquo;successful serve&amp;rsquo; by the organisers. They also had mechanisms to return the serve of the opposing team using different placements of badminton racquets. The image shows one of our robots that had a double pneumatic actuation mechanism in the center alongwith 2 side racquets to return the shuttle.&lt;/p&gt;
+&lt;p&gt;I was a part of the electronics team, managing the power delivery to the different components of the bot. Also, to reduce the clutter of wires, I designed Printed Circuit Boards (PCBs) of different components of the bot, eg. the motor driver, on Altium Designer and got them printed for use. I also had major contributions in designing the mechanism to serve the shuttlecock.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
