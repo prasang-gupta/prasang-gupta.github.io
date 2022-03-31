@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://prasang-gupta.github.io/publication-type/3/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://prasang-gupta.github.io/publication/biot2022/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://prasang-gupta.github.io/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://prasang-gupta.github.io/publication_types/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://prasang-gupta.github.io/publication/</loc>
+    <lastmod>2021-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://prasang-gupta.github.io/publication/clef2021/</loc>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://prasang-gupta.github.io/tag/iot/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +30,6 @@
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://prasang-gupta.github.io/project/occupancydetection/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://prasang-gupta.github.io/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://prasang-gupta.github.io/project/</loc>
@@ -59,16 +74,7 @@
     <loc>https://prasang-gupta.github.io/project/fingervein/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://prasang-gupta.github.io/publication-type/3/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://prasang-gupta.github.io/publication/clef2020/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://prasang-gupta.github.io/publication_types/</loc>
-    <lastmod>2020-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://prasang-gupta.github.io/publication/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://prasang-gupta.github.io/tag/asset-tracking/</loc>
