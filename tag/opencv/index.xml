@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/opencv/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/opencv/index.xml" rel="self" type="application/rss+xml" />
+    <description>OpenCV</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>OpenCV</title>
+      <link>https://prasang-gupta.github.io/tag/opencv/</link>
+    </image>
+    
+    <item>
+      <title>UI element detection from wireframe drawings of websites</title>
+      <link>https://prasang-gupta.github.io/publication/clef2021/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/publication/clef2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML Atomic UI Elements Extraction from Hand-Drawn Website Images using Mask-RCNN and novel Multi-Pass Inference Technique</title>
+      <link>https://prasang-gupta.github.io/publication/clef2020/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/publication/clef2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
