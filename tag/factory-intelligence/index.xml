@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/factory-intelligence/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/factory-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <description>Factory Intelligence</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Factory Intelligence</title>
@@ -15,21 +15,15 @@
     <item>
       <title>Factory Intelligence</title>
       <link>https://prasang-gupta.github.io/project/factoryintelligence/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/factoryintelligence/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;CLIENT PROBLEM&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;PROBLEM&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Our client was facing unplanned machine downtimes in their factories. Obtaining insights from machinery on factory floors is time-consuming, complex, and costly due to legacy infrastructure and bespoke systems that cannot be easily accessed. Accelerating the time it takes to draw intelligence from machine data is critical to get an accurate pulse on manufacturing operations. While many vendors offer comprehensive IIoT solutions, we were looking for quicker and more cost-effective alternatives to deploying a sophisticated end-to-end platform.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;OUR SOLUTION&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;SOLUTION&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;We designed, deployed and tested a fully-functioning prototype on our client’s manufacturing floor in less than 4 weeks. Our solution utilized low-cost vibration sensors and accelerometers connected directly to selected machines. These sensors captured near real-time data and provided rapid analytics by bypassing timely integrations with existing factory systems.&lt;/p&gt;
 &lt;p&gt;We also designed and built a customized dashboard offering a simple and elegant view of the captured insights. The insights present on the dashboard included machine schedules, unplanned downtimes, overall availability and the number of times the machine was stopped. All of this was reported and updated real-time with a resolution of 4 minutes.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;VALUE GENERATED&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Instead of spending months and significant budget to deploy an end-to-end IIoT platform, our client was equipped with critical insights in a much shorter timeframe. KPIs captured included machine up/downtime compared with scheduled operating times. The intelligence gathered not only provided efficiency gains and cost savings, but also avoided our client complex work orders to deploy sensory equipment. Consequently, client involvement was low-touch and the manufacturing process was not interrupted.&lt;/p&gt;
 </description>
     </item>

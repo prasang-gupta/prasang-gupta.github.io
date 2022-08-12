@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/something-something-dataset/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/something-something-dataset/index.xml" rel="self" type="application/rss+xml" />
     <description>Something Something Dataset</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Something Something Dataset</title>
@@ -15,10 +15,12 @@
     <item>
       <title>Implementation of Live models on Edge</title>
       <link>https://prasang-gupta.github.io/project/edgelivemodels/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/edgelivemodels/</guid>
-      <description>&lt;p&gt;The aim of this project was two fold. The first aim was to get the action recognition model running and the second was to implement the same on an edge device. For this, we chose the Pre-trained Temporal Relation Network Model from &lt;a href=&#34;https://github.com/zhoubolei/TRN-pytorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The dataset chosen for this was the &lt;a href=&#34;https://20bn.com/datasets/something-something/v2#download&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;20BN-something-something Dataset V2&lt;/a&gt;. This dataset has over 100 classes of different object-human or object-object interactions.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was two fold. The first aim was to implement an action recognition model and the second was to modify it to run on an edge device. For this, we chose the Pre-trained Temporal Relation Network Model. The dataset chosen for this was the 20BN-something-something Dataset V2. This dataset has over 100 classes of different object-human or object-object interactions.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;jetson.png&#34; alt=&#34;Jetson TX2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The model was first implemented on a laptop with the webcam and then later extended onto the edge device, Jetson TX2. Prior to this, the TX2 was flashed and proper libraries were built from source to enable it to use its full potential (CUDA cores for rendering). We were successfully able to implement this on the board and were getting very respectable frame rates, somewhere around 10 fps. The performance of this model for several different scenarios can be seen in the videos link and a little detail about the implementation can be found in the slides.&lt;/p&gt;
 &lt;p&gt;Apart from this, we also implemented simple object detection models on Raspberry Pi on which we were getting around 1-2 fps.&lt;/p&gt;
 </description>

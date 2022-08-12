@@ -17,7 +17,9 @@
       <link>https://prasang-gupta.github.io/project/che453/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/che453/</guid>
-      <description>&lt;p&gt;This was a course project for Chemical Desgin course under Prof. Nitin Kaistha. The aim of the project was to design a chemical plant from scratch for the production of acrylic acid. The design should be optimal with respect to the different costs associated with the production and it should be robust to input stream fluctuations. This was a rather interesting project as it brought together everything that we learned in the span of 3 years.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was a course project for Chemical Desgin course under Prof. Nitin Kaistha. The aim of the project was to design a chemical plant from scratch for the production of acrylic acid. The design should be optimal with respect to the different costs associated with the production and it should be robust to input stream fluctuations. This was a rather interesting project as it brought together everything that we learned in the span of 3 years.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The design was meticulously thought of by theoretical knowledge and the whole plant was simulated using ASPEN HYSYS package. The simulations were done both for the equilibrium stage of the plant as well as for the dynamics with controllers attached to several parts of the components, as can be seen in the figure.&lt;/p&gt;
 </description>
     </item>
@@ -27,7 +29,9 @@
       <link>https://prasang-gupta.github.io/project/innovationlabpid/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/innovationlabpid/</guid>
-      <description>&lt;p&gt;This was a part of the Unit Operations Lab course. The aim of this project was to innovate and go above and beyond the standard lab experiments with the same equipment.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was a part of the Unit Operations Lab course. The aim of this project was to innovate and go above and beyond the standard lab experiments with the same equipment.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We modelled the whole process in MATLAB Simulink deriving transfer functions from experimental data. Also, we took the default PID values present in the controller on the setup and tuned those values. We found that the response received is much better than the default response recorded. Hence, we submitted the parameters to be updated in the controller for more accurate experiments thereafter.&lt;/p&gt;
 </description>
     </item>
@@ -37,7 +41,9 @@
       <link>https://prasang-gupta.github.io/project/innovationlabpump/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/innovationlabpump/</guid>
-      <description>&lt;p&gt;This was a part of the Unit Operations Lab course. The aim of this project was to innovate and go above and beyond the standard lab experiments with the same equipment. We were assigned the centrifugal pump setup which is originally used to study the effect of series and parallel setup of pumps on the discharge pressure and flow rate. We however decided to perform a very different study using the same equipment.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This was a part of the Unit Operations Lab course. The aim of this project was to innovate and go above and beyond the standard lab experiments with the same equipment. We were assigned the centrifugal pump setup which is originally used to study the effect of series and parallel setup of pumps on the discharge pressure and flow rate. We however decided to perform a very different study using the same equipment.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;During our experiments, we noticed that there was a measurable gap between turning up the RPM of the motor and actually observing differences in the flow rate. This lead us to believe that there is some sort of a lag in play between the inputs and outputs. To model this lag, we assumed first order dynamics for simplicity and calculated the transfer function of the pump ny oberving the time difference it takes to reach equilibrium after giving the input. We later tested this obtained transfer function by further experimenting with the setup.&lt;/p&gt;
 &lt;p&gt;To ensure utmost accuracy in our calculation, we used high FPS cameras to record readings when we were giving a small step change as an input to the motor (change of RPM). We also performed an opimisation study for an optimum RPM for the motor for best energy efficiency.&lt;/p&gt;
 </description>

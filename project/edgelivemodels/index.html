@@ -298,10 +298,10 @@
     
       <meta
         property="article:published_time"
-        content="2019-11-01T00:00:00&#43;00:00"
+        content="2019-09-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2019-11-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2019-09-01T00:00:00&#43;00:00">
   
 
   
@@ -331,8 +331,8 @@
     "https://prasang-gupta.github.io/project/edgelivemodels/featured.png"
   ],
   
-  "datePublished": "2019-11-01T00:00:00Z",
-  "dateModified": "2019-11-01T00:00:00Z",
+  "datePublished": "2019-09-01T00:00:00Z",
+  "dateModified": "2019-09-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -769,6 +769,8 @@
   <h1>Implementation of Live models on Edge</h1>
 
   
+  <p class="page-subtitle"><span style="font-size:80%;color:#5DADE2">[ PwC US ] </span><span style="font-size:80%">Prasang Gupta, <a href="https://www.linkedin.com/in/swayambodha-mohapatra-7a7a22110/" target="_blank">Swayambodha Mohapatra</a></span></p>
+  
 
   
 
@@ -784,7 +786,7 @@
     
       
     
-    Nov 1, 2019
+    Sep 1, 2019
   </span>
   
 
@@ -827,6 +829,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header" href="https://github.com/zhoubolei/TRN-pytorch" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -855,6 +865,22 @@
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://20bn.com/datasets/something-something/v2#download" target="_blank" rel="noopener">
+    
+    Data
+  </a>
+
 
 </div>
 
@@ -865,7 +891,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 482px;">
   <div style="position: relative">
     <img src="/project/edgelivemodels/featured_hu163d22536df1a0874743b541df8a20e2_4148864_720x0_resize_lanczos_3.png" alt="" class="featured-image">
-    <span class="article-header-caption">Jetson TX2 board</span>
+    <span class="article-header-caption">Sample outputs of live model running on edge device</span>
   </div>
 </div>
 
@@ -874,8 +900,10 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The aim of this project was two fold. The first aim was to get the action recognition model running and the second was to implement the same on an edge device. For this, we chose the Pre-trained Temporal Relation Network Model from <a href="https://github.com/zhoubolei/TRN-pytorch" target="_blank" rel="noopener">here</a>. The dataset chosen for this was the <a href="https://20bn.com/datasets/something-something/v2#download" target="_blank" rel="noopener">20BN-something-something Dataset V2</a>. This dataset has over 100 classes of different object-human or object-object interactions.</p>
+      <p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+<p>The aim of this project was two fold. The first aim was to implement an action recognition model and the second was to modify it to run on an edge device. For this, we chose the Pre-trained Temporal Relation Network Model. The dataset chosen for this was the 20BN-something-something Dataset V2. This dataset has over 100 classes of different object-human or object-object interactions.</p>
 <p><img src="jetson.png" alt="Jetson TX2"></p>
+<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
 <p>The model was first implemented on a laptop with the webcam and then later extended onto the edge device, Jetson TX2. Prior to this, the TX2 was flashed and proper libraries were built from source to enable it to use its full potential (CUDA cores for rendering). We were successfully able to implement this on the board and were getting very respectable frame rates, somewhere around 10 fps. The performance of this model for several different scenarios can be seen in the videos link and a little detail about the implementation can be found in the slides.</p>
 <p>Apart from this, we also implemented simple object detection models on Raspberry Pi on which we were getting around 1-2 fps.</p>
 
@@ -905,6 +933,10 @@
   <a class="badge badge-light" href="/tag/live-action-recognition/">Live Action recognition</a>
   
   <a class="badge badge-light" href="/tag/something-something-dataset/">Something Something Dataset</a>
+  
+  <a class="badge badge-light" href="/tag/proof-of-concept/">Proof of Concept</a>
+  
+  <a class="badge badge-light" href="/tag/ml-dl/">ML-DL</a>
   
 </div>
 
@@ -1137,15 +1169,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/rlisia/">Intelligent Systematic Investment Agent: an ensemble of deep learning and evolutionary strategies</a></li>
-      
-      <li><a href="/project/occupancydetection/">Occupancy Detection</a></li>
+      <li><a href="/project/demandprediction/">Demand Prediction with Competition Analysis</a></li>
       
       <li><a href="/project/activelearning/">Active Learning</a></li>
       
-      <li><a href="/project/demandprediction/">Demand Prediction with Competition Analysis</a></li>
+      <li><a href="/project/fingervein/">Fingervein Detection</a></li>
       
-      <li><a href="/project/lndrepo/">Trainings Repository</a></li>
+      <li><a href="/project/carpartsegmentation/">Damaged Car Parts Segmentation for auto claims</a></li>
+      
+      <li><a href="/publication/rlisia/">Intelligent Systematic Investment Agent: an ensemble of deep learning and evolutionary strategies</a></li>
       
     </ul>
   </div>
