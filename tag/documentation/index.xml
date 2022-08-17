@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/documentation/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Documentation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Documentation</title>
+      <link>https://prasang-gupta.github.io/tag/documentation/</link>
+    </image>
+    
+    <item>
+      <title>Read-The-Docs Documentation Templatisation</title>
+      <link>https://prasang-gupta.github.io/project/rtddocumentation/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/rtddocumentation/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a solution that would auto-create documentation given a code repository with docstrings. The main focus of this solution was be to allow generating quick documentation that can be hosted on Github pages for making it easier to re-use codebases because of a standardised documentation format.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We created a documentation template and chose RTD (Read The Docs) as standard formatting because of its popularity among open source tools. We built 2 methods within the solution, first focused on generating and hosting documentation quickly (under 10 minutes) and the second focused on learning the nitty-gritties of how Sphinx works and providing much more room for modifications and personalisation. This system can also be used to generate documentation in PDF format using latex.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The solution was used widely across different teams and it allowed easy re-use of code. It also cultivated a good culture of writing docstrings in functions and classes across the whole team.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

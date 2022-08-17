@@ -5,12 +5,86 @@
     <link>https://prasang-gupta.github.io/tag/proof-of-concept/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/proof-of-concept/index.xml" rel="self" type="application/rss+xml" />
     <description>Proof of Concept</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Proof of Concept</title>
       <link>https://prasang-gupta.github.io/tag/proof-of-concept/</link>
     </image>
+    
+    <item>
+      <title>Zero-Shot Deepfake Generation - Audio</title>
+      <link>https://prasang-gupta.github.io/project/deepfakeaudio/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/deepfakeaudio/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a demo for generating speech from text in the voice of the user given the least amount of sample possible.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As the aim of this study was to create a demo, we chose to go ahead with Zero-Shot model as it takes practically no time to train and can start giving good results even with very little amount of sample data. The tradeoff with accuracy was accepted in favour of time. We tested different models, the most popular being YourTTS, SCGlowTTS and SV2TTS. On the basis of qualitative assessment on the representative test dataset, which included both male and female audio samples in 3 different accents (American, British and Indian), YourTTS model was selected as the clear winner.&lt;/p&gt;
+&lt;p&gt;After finalising the model, this was tested further for robustness and a minimum sample audio time was estimated based off of these tests and it came out to be 1 minute for getting decent results in most cases. We then deployed this solution on an internal hosting site and created an interactive demo using our developed model as the backend. A representative set of 10 small sentences were obtained which contain as many different phonetics as possible and then a feature was added to record the user speak these sentences.&lt;/p&gt;
+&lt;p&gt;After running these samples through the model, which takes about a minute, the user would be able to hear their deepfake speaking 5 different sentences that were not a part of the representative set in their voice.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Model Parallelism for Inference at edge</title>
+      <link>https://prasang-gupta.github.io/project/modelparallelism/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/modelparallelism/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a solution that can be used to train a model that can be split into multiple pieces and can be run in parallel on multiple separate devices.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The architecture used was the recently published DeCNN (Decoupled CNN) network. The authors had used GConv with Channel Shuffle and added other network and OS level modifications to improve the performance of the decoupled architecture. For initial testing, we only focused on Scheme 1 and ignored other optimisations to establish a baseline.&lt;/p&gt;
+&lt;p&gt;We used the tiny imagenet dataset and Resnet-34 model for testing and comparing the standard CNN results with DeCNN. We compared based on the performance (accuracy metrics) and the time taken to run inference on a fixed batch of data. It was found that there was a performance decrease by using DeCNN as some of the information is lost while doing channel shuffling. To counter that, we used 1.5x kernels as in the standard CNN to keep the performance comparable. Even while using just the Scheme 1 mentioned above, we got about 15% bump up in inference speeds with just 2 devices. We expect that this gap would increase with larger models and with more number of parallel devices.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The solution developed can be used to train models specifically for running on smaller edge devices. This is especially helpful as no single device can hold the full model in memory at the edge due to size and compute limitations and this would help in running bigger and better models at the edge with no added requirement of a heavy compute engine deployment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Worlds.io</title>
+      <link>https://prasang-gupta.github.io/project/worldsio/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/worldsio/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this study was to test out some of the features offered by Worlds.io and create a generalised digital twin solution that can be leveraged in future projects. This would include generating a digital replication of their current environment and answer some of the questions based off of that with some additional analysis to allow clients to make better oeprational and strategic decisions.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We took the live footage provided by the vendor in New York City&amp;rsquo;s Bryant Park as a case study. A YOLO model was put on the raw camera footage to capture some common objects like people, bins, animals (pets) etc. This was then converted into a streaming data format and sent to cloud with approximate latitude and longitude values as provided by the vendor based on the camera&amp;rsquo;s location and field of view. These lat-lon values were then converted into cartesian coordinates, effectively treating Bryant park in a 2D plane for getting the data ready for digital twin studies. We also created a few zones and mapped the coordinates accordingly.&lt;/p&gt;
+&lt;p&gt;The conversion to cartesian coordinates helped us to map the pedestrian movement patterns in the field of view. Additionally, we also extracted other information to answer questions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How many people are passing through our zones in the park?&lt;/li&gt;
+&lt;li&gt;How long are people generally in the park for?&lt;/li&gt;
+&lt;li&gt;How many people are sitting in the park?&lt;/li&gt;
+&lt;li&gt;How many people are walking babies/strollers?&lt;/li&gt;
+&lt;li&gt;How many tourists/suitcases ?&lt;/li&gt;
+&lt;li&gt;Are people riding bikes in the park?&lt;/li&gt;
+&lt;li&gt;How many deliveries with carts are made?&lt;/li&gt;
+&lt;li&gt;How many people are walking pets in the park?&lt;/li&gt;
+&lt;li&gt;How many people per hour, walking speed, which way are they going,&lt;/li&gt;
+&lt;li&gt;What % of people are stopping?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We were able to run analytics on the video feed and the derived variables. Also, we were able to generate a digital twin using the converted coordinates. This helped us build capability for any future projects that might entail the use of these technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distributed Edge Compute</title>
+      <link>https://prasang-gupta.github.io/project/distributededge/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/distributededge/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this study was to build a system to distribute compute load across different resources present on the edge. It also involved testing the built system with a dummy exercise and find out the robustness of the system and any additional points that might need to be taken care of before actually attempting a client project in this domain.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We built out a system for distributed edge compute using microk8s, a micro kubernetes engine. We paired it with metalb, a load balancer and dashboarding, resource tracking and reporting tools like grafana and prometheus. To simulate an edge environment, a local ensemble of devices was created and connected together on the same network. A total of 3 devices were included in the network including a raspbery pi, a windows laptop and an edge compute appliance. For testing out the pipeline, we ran a simple object detection model on all the devices using tensorflow serving.&lt;/p&gt;
+&lt;p&gt;While testing, we also came across several limitations of the architecture. The first is that the compute power was very skewed within the networks (x86 devices were orders of magnitude faster than ARM). This lead to bottlenecking at times even with the load balancer. We also realised that running a full object detection model on small devices was not a great idea due to the compute and memory limitations of each device.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The system built was a demonstration that multiple unused devices can be pooled together at the edge to increase the overall compute capabilities, reducing the lag of transferring data to and from the cloud. Apart from reducing latency, it also helps in keeping the data secure as everything is happening locally. This also ensures that no single edge device is overutilised hampering the pipeline.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Demand Prediction with Competition Analysis</title>

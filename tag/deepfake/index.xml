@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepfake | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/deepfake/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/deepfake/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deepfake</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Deepfake</title>
+      <link>https://prasang-gupta.github.io/tag/deepfake/</link>
+    </image>
+    
+    <item>
+      <title>Zero-Shot Deepfake Generation - Audio</title>
+      <link>https://prasang-gupta.github.io/project/deepfakeaudio/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/deepfakeaudio/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a demo for generating speech from text in the voice of the user given the least amount of sample possible.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As the aim of this study was to create a demo, we chose to go ahead with Zero-Shot model as it takes practically no time to train and can start giving good results even with very little amount of sample data. The tradeoff with accuracy was accepted in favour of time. We tested different models, the most popular being YourTTS, SCGlowTTS and SV2TTS. On the basis of qualitative assessment on the representative test dataset, which included both male and female audio samples in 3 different accents (American, British and Indian), YourTTS model was selected as the clear winner.&lt;/p&gt;
+&lt;p&gt;After finalising the model, this was tested further for robustness and a minimum sample audio time was estimated based off of these tests and it came out to be 1 minute for getting decent results in most cases. We then deployed this solution on an internal hosting site and created an interactive demo using our developed model as the backend. A representative set of 10 small sentences were obtained which contain as many different phonetics as possible and then a feature was added to record the user speak these sentences.&lt;/p&gt;
+&lt;p&gt;After running these samples through the model, which takes about a minute, the user would be able to hear their deepfake speaking 5 different sentences that were not a part of the representative set in their voice.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

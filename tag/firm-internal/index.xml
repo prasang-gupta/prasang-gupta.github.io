@@ -5,12 +5,144 @@
     <link>https://prasang-gupta.github.io/tag/firm-internal/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/firm-internal/index.xml" rel="self" type="application/rss+xml" />
     <description>Firm Internal</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Firm Internal</title>
       <link>https://prasang-gupta.github.io/tag/firm-internal/</link>
     </image>
+    
+    <item>
+      <title>Read-The-Docs Documentation Templatisation</title>
+      <link>https://prasang-gupta.github.io/project/rtddocumentation/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/rtddocumentation/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a solution that would auto-create documentation given a code repository with docstrings. The main focus of this solution was be to allow generating quick documentation that can be hosted on Github pages for making it easier to re-use codebases because of a standardised documentation format.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We created a documentation template and chose RTD (Read The Docs) as standard formatting because of its popularity among open source tools. We built 2 methods within the solution, first focused on generating and hosting documentation quickly (under 10 minutes) and the second focused on learning the nitty-gritties of how Sphinx works and providing much more room for modifications and personalisation. This system can also be used to generate documentation in PDF format using latex.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The solution was used widely across different teams and it allowed easy re-use of code. It also cultivated a good culture of writing docstrings in functions and classes across the whole team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concept Drift Detection with Chatbots</title>
+      <link>https://prasang-gupta.github.io/project/conceptdrift/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/conceptdrift/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to create a drift detection toolkit that can be easily used to detect drift in any type of data (image, audio or text) using a multitude of different drift detection methods to suit every problem under the sun. We also tested this toolkit&amp;rsquo;s ease of use by several case studies of different mock data types and also by integrating this with a chatbot built using RASA architecture to generate a novel drift-aware monitored chatbot.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The drift detection toolkit was built using several different drift detection methods like :&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Drift Detection Type&lt;/th&gt;
+&lt;th&gt;Drift Detection Methods&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Data distribution based methods&lt;/td&gt;
+&lt;td&gt;- Kolmogorov-Smirnov (KS) test&lt;br&gt;- Maximum Mean Discrepancy (MMD) test&lt;br&gt;- Least-Squares Density Difference (LSDD) test&lt;br&gt;- KMeans and Chi Square Test&lt;br&gt;- Equal Intensity KMeans (EIKMeans) and Chi Square Test&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Drift magnitude based methods&lt;/td&gt;
+&lt;td&gt;- Relative drift using Jensen–Shannon (JS) Divergence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Uncertainty based methods&lt;/td&gt;
+&lt;td&gt;- Uncertainty Classifier&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Error rate based methods&lt;/td&gt;
+&lt;td&gt;- Fisher’s Test&lt;br&gt;- Statistical Test of Equal Proportions (STEPD)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We implemented these methods and verified that these methods are functioning properly using curated open-source datasets. After verifying all these methods for different types of data (text, audio and images), we implemented an integrated architecture with a chatbot built using RASA framework.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;RASA process flow&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The process flow diagram shows the working of the integrated system. We implemented several novel methods that ensured our solution remained as general as possible and it does not hamper the whole process in any way whatsoever. Additionally, in case drift is detected, we also made a training pipeline that would incorporate the changes in the model weights without having any model downtime.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The solution developed can be implemented with most of the chatbots that are currently in production. Implementing our system would ensure that the model does not lose intent quickly, and if it does, then proper notifications are being provided to the user based on the drift detection systems in place. It would also provide the developer with all the data that is needed to troubleshoot any issues and if needed, retrain the model to counter the drift without experiencing any downtimes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automated PPT content editor</title>
+      <link>https://prasang-gupta.github.io/project/yvce/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/yvce/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to generate a solution that would auto-format any PPT in PwC-compliant format. The changes included several editorial changes (word alternatives, punctuations) and branding changes (colors, formatting). It also included aligning any misaligned objects present in the PPT.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We decided to edit the underlying XML format of the presentation (using the open office lxml format) in addition to actually editing the PPT itself. We wrote code to parse the PPT in an editable format and then created a modular structure to work on different portions of the PPT. Some modules were rule-based, some were logic driven based on the requirements and some modules incorporated ML solutions developed for sub-problems wherever possible. Some of the modules built were:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Module&lt;/th&gt;
+&lt;th&gt;Type&lt;/th&gt;
+&lt;th&gt;Function and Details&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Word&lt;/td&gt;
+&lt;td&gt;Editorial&lt;/td&gt;
+&lt;td&gt;Performed changes on the word level. One was making them consistent in terms of American English / British English. Also included removing any risk words and replace jargons with better suited alternatives&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Numbers&lt;/td&gt;
+&lt;td&gt;Editorial&lt;/td&gt;
+&lt;td&gt;Performed date parsing, currency conversions etc based on the format expected. Also changed numerical numbers to text wherever applicable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Punctuation&lt;/td&gt;
+&lt;td&gt;Editorial&lt;/td&gt;
+&lt;td&gt;Added and modified punctuation marks wherever applicable in a consistent format&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paragrapsh&lt;/td&gt;
+&lt;td&gt;Editorial&lt;/td&gt;
+&lt;td&gt;Identified any lengthy paragraphs or capitalisation issues in the presentation and gave suggestions to shorten it&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Font&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Changed font sizes, styles and colors based on the location of the text (header, help box, content box etc)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bullets&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Formatted simple and nested bullets to follow a particular pattern and adjusted font size and bullet marker according to the context&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Header and Footer&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Adjusted header and footer in the master slide to be put on every slide in the document. Also, detected and accounted for repeated non-aligned headers and footers&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pictogram&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Detected images present in the slides and checked whether they are approved pictograms or if they infringe any copyright claims&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Colors&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Changed the colors (font, background, pictograms) to be replaced with the nearest PwC-approved colors based off of a novel color matching technique&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Animations&lt;/td&gt;
+&lt;td&gt;Branding&lt;/td&gt;
+&lt;td&gt;Detected and changed any animations in the presentation wherever applicable&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This solution built was deployed on an internal hosting service and was made available as a service. The total processing time for an average presentation was about 5 minutes with all the modules active. This brought down the time to manually review and format average presentations from 30 minutes to about 10 minutes. The solution was not perfect, but it helped ensure that most of the repetitive tasks are taken care of by the code and only final inspection with some modifications need to be done by the manual reviewers, saving thousands of manhours for the firm.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Trainings Repository</title>

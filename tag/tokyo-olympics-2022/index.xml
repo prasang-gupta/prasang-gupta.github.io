@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tokyo Olympics 2022 | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/tokyo-olympics-2022/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/tokyo-olympics-2022/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tokyo Olympics 2022</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Tokyo Olympics 2022</title>
+      <link>https://prasang-gupta.github.io/tag/tokyo-olympics-2022/</link>
+    </image>
+    
+    <item>
+      <title>Twitter Bias Hackathon</title>
+      <link>https://prasang-gupta.github.io/project/twitterbiashack/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/twitterbiashack/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#58D68D&#34;&gt;We achieved&lt;/span&gt; &lt;span style=&#34;color:#52BE80;font-style:bold;font-size:120%&#34;&gt;9th rank&lt;/span&gt; &lt;span style=&#34;color:#58D68D&#34;&gt;in the hackathon.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of the hackathon was to higlight bias in Twitter&amp;rsquo;s Saliency model.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Twitter&amp;rsquo;s Saliency model is a model that is used to crop over-sized images to fit on the screen representing a thumbnail preview. The saliency model is responsible for selecting the most &amp;ldquo;salient&amp;rdquo; part of the image and that part is consequently kept in the thumbnail and the area surroinding it is cropped off.&lt;/p&gt;
+&lt;p&gt;We decided to chose, recently concluded at the time, Tokyo Olympics 2022 as a case study for highlighting bias. We downloaded around 5000 images across 10 different sports and ran the saliency model on top of them. We also passed these images through an object detection model to identify images with and without athletes.&lt;/p&gt;
+&lt;p&gt;We ran several studies, the main being classifying the images and the crops as something that was biased or not-biased. We also ran a sensitivity analysis and also tried observing changes between original coloured images and an image with a filter put on it (sepia and grayscale).&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We found out that the model, in some cases, was biased towards text present in the image (which was mostly Tokyo 2020). We also found in several cases, where the main focus of the image, the athletes were not the ones selected as the most salient in the image, instead, the saliency model was predicting either someone from the audience or billboards / advertisements as the most salient. This report was submitted to Twitter and we got a thanks from the Twitter team for highlighting this bias in their model.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
