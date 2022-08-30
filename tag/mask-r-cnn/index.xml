@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mask R-CNN | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/mask-r-cnn/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/mask-r-cnn/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mask R-CNN</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Mask R-CNN</title>
+      <link>https://prasang-gupta.github.io/tag/mask-r-cnn/</link>
+    </image>
+    
+    <item>
+      <title>HTML UI element extraction</title>
+      <link>https://prasang-gupta.github.io/project/wireframeuidetection/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/wireframeuidetection/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#58D68D&#34;&gt;We achieved&lt;/span&gt; &lt;span style=&#34;color:#52BE80;font-style:bold;font-size:120%&#34;&gt;3rd rank&lt;/span&gt; &lt;span style=&#34;color:#58D68D&#34;&gt;in the hackathon.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this hackathon was to localise and identify several different HTML UI elements in hand-drawn wireframe drawings of websites.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The dataset provided for the hackathon contained about 3000 wireframe drawings of websites. The goal was to identify the different HTML UI elemnents present in the image, such as &amp;ldquo;Text Box&amp;rdquo;, &amp;ldquo;Button&amp;rdquo;, &amp;ldquo;Image&amp;rdquo;, etc. Hence, it boiled down to an object detection problem.&lt;/p&gt;
+&lt;p&gt;We tried using several Object Detection algorithms like YOLO, R-CNN and Mask-RCNN and decided on Mask-RCNN as it was providing us with the best results. However, one thing we observed in our outputs was that our Precision scores were good, but the model was lacking in Recall bringing the whole F1 down. To solve this problem, we came up with a novel technique &amp;ldquo;Multi-Pass Inference&amp;rdquo; that booosted our recall scores.&lt;/p&gt;
+&lt;p&gt;The technique involves running the image through the model multiple times, each time taking note of the objects that are already detected and removing them for subsequent passes. This forced the model to predict more instances of the elements in the image. We smarlty combined the objects detected in multiple passes to overall boost the recall score of our model helping us to take a podium spot in the leaderboard.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The solution built was performing really good on unseen test images managing an mAP (IoU &amp;gt; 0.5) score of 64.12. This solution was later implemented into a pipeline to allow rapid prototyping of websites and dashboards.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

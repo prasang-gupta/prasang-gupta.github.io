@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Intelligent Systematic Investment Agent</title>
+      <link>https://prasang-gupta.github.io/project/rlisia/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/rlisia/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The aim of this project was to explore Evolutionary strategies as an alternative to the classicaly used Reinforcement learning techniques to solve the ETF trading investment problem.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Historically, autonomous agents for trading and investment are generally built using one of the many reinforcement learning techniques. These include the SOTA Actor-critic algorithms as well as simpler DQN based algorithms. The problem with these is that an environment needs to be setup for training them and the learning curve for these algorithms is a bit steep for someone inexperienced in the field of Reinforcement Learning.&lt;/p&gt;
+&lt;p&gt;We demonstrated that using Evolutionary strategies to solve episodic problems (which is getting daily purchase actions for a month in the current problem) can be a much easier and robust method. We also coupled this with a simple Neural network model to learn the patterns that are being revealed in the outputs of the ES runs. This broke down the problem into 2 mutually exclusive parts, which is much easier to understand and code.&lt;/p&gt;
+&lt;p&gt;We compared both qualitative and quantitative metrics for our ensemble algorithm we call &lt;code&gt;GADLE&lt;/code&gt; with 2 traditional RL-based solutions, Actor-critic and DQN. Qualitatively, we compared the ease of writing of code and ease of understanding. Quantitatively, we ran different experiments centered around performance, sensitivity and consistency of the solutions.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The proposed GADLE algorithm performs at par with the Actor-critic algorithm. However, it crushes the competition in terms of consistency and sensitivity. To put things in perspective, following are the tables summarising results of the sensitivity and the consistency experiments.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;sensitivity.png&#34; alt=&#34;Sensitivity comparison&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;consistency.png&#34; alt=&#34;Consistency comparison&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

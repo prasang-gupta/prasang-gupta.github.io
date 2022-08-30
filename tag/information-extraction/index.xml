@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Extraction | Prasang Gupta</title>
+    <link>https://prasang-gupta.github.io/tag/information-extraction/</link>
+      <atom:link href="https://prasang-gupta.github.io/tag/information-extraction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information Extraction</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Information Extraction</title>
+      <link>https://prasang-gupta.github.io/tag/information-extraction/</link>
+    </image>
+    
+    <item>
+      <title>Contract Lifecycle Management (CLM)</title>
+      <link>https://prasang-gupta.github.io/project/contractlifecyclemgmnt/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/contractlifecyclemgmnt/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;PROBLEM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The client wanted to switch from legacy contract management tool to a new vendor. However, they were not confident of the metadata they had for the contracts and wanted help in getting all the major information extracted from the documents. They also wanted hierarchical linkages for most of the contracts for better organisation in the new tool.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;SOLUTION&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We solved the first problem with a myriad of different tools. These included advanced NLP models for entity extraction based on transformers, tree based ML models for certain classifications and logic-driven string search models.&lt;/p&gt;
+&lt;p&gt;Common fields that are present in almost every document were extracted using a trained NER model linked with an active learning pipeline. These models were built using a modified version of &lt;a href=&#34;https://github.com/princeton-nlp/PURE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PURE&lt;/a&gt;, an open source offering by Princeton NLP. The active learning pipeline was built using LabelStudio as a frontend for manual annotations to get initial training data and then subsequently, for getting labels for the most uncertain samples.&lt;/p&gt;
+&lt;p&gt;Fields which had only a few possible values like &amp;ldquo;Agreement Type&amp;rdquo;, were trained using a simple Random Forest classifier. The training data was obhtained using a mix of string extractions from the filenames and the existing contract metadata provided by the client. This, combined with the NER model resulted in boosted accuracies for this field.&lt;/p&gt;
+&lt;p&gt;We built logic-based string search models for those fields which were not abundantly present and were more situational. These included fields like &amp;ldquo;Force Majeure&amp;rdquo; and all fields associated with this, &amp;ldquo;Termination Payments&amp;rdquo;, etc. This helped us extract information for these fields for the majority of the documents they were present in with little overhead.&lt;/p&gt;
+&lt;p&gt;All of these extractions were provided to the client and after spot-checking and QA, were used in the construction of hierarchical linkages. Strong linkages were built by extracting the reference phrase within contracts that contains the details regarding the parent or the child contract. These were then translated back to the database we had. Weak linkages were also built based off of logic to combine documents under each MSA umbrella wherever the extraction of the reference phrase wasn&amp;rsquo;t possible.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The extractions provided to the client passed the QA test with about 90% accuracy. Also, we managed to provide hierchical linkages for more than 75% of the documents provided to us that could be linked.&lt;/p&gt;
+&lt;p&gt;This has historically been a manual-only job with several hours of manpower invested in reading through the huge contracts and extracting information. We accelerated this process by appending this with models wherever possible. This reduced the load on the manual annotators and we were able to complete this in a fraction of the time that would&amp;rsquo;ve been invested in an all-manual project &lt;span style=&#34;color:#5DADE2;font-style:bold&#34;&gt;saving roughly 30,000 hours and $750,000 for the client&lt;/span&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
