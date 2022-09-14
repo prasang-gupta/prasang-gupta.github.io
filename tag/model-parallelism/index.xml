@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/model-parallelism/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/model-parallelism/index.xml" rel="self" type="application/rss+xml" />
     <description>Model Parallelism</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Model Parallelism</title>
@@ -15,15 +15,42 @@
     <item>
       <title>Model Parallelism for Inference at edge</title>
       <link>https://prasang-gupta.github.io/project/modelparallelism/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/modelparallelism/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of this project was to create a solution that can be used to train a model that can be split into multiple pieces and can be run in parallel on multiple separate devices.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-solution-architecture&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Solution Architecture&#34; srcset=&#34;
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_215c88f36fa3407aa164683e7c3e7ca6.png 400w,
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_37006373126bde36e2cc0a8a4e097abb.png 760w,
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://prasang-gupta.github.io/project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_215c88f36fa3407aa164683e7c3e7ca6.png&#34;
+               width=&#34;760&#34;
+               height=&#34;120&#34;
+               loading=&#34;lazy&#34; data-zoomable class=&#34; img-light&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Solution Architecture
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;The architecture used was the recently published DeCNN (Decoupled CNN) network. The authors had used GConv with Channel Shuffle and added other network and OS level modifications to improve the performance of the decoupled architecture. For initial testing, we only focused on Scheme 1 and ignored other optimisations to establish a baseline.&lt;/p&gt;
 &lt;p&gt;We used the tiny imagenet dataset and Resnet-34 model for testing and comparing the standard CNN results with DeCNN. We compared based on the performance (accuracy metrics) and the time taken to run inference on a fixed batch of data. It was found that there was a performance decrease by using DeCNN as some of the information is lost while doing channel shuffling. To counter that, we used 1.5x kernels as in the standard CNN to keep the performance comparable. Even while using just the Scheme 1 mentioned above, we got about 15% bump up in inference speeds with just 2 devices. We expect that this gap would increase with larger models and with more number of parallel devices.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The solution developed can be used to train models specifically for running on smaller edge devices. This is especially helpful as no single device can hold the full model in memory at the edge due to size and compute limitations and this would help in running bigger and better models at the edge with no added requirement of a heavy compute engine deployment.&lt;/p&gt;
 </description>
     </item>

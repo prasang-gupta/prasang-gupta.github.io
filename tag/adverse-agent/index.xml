@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/adverse-agent/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/adverse-agent/index.xml" rel="self" type="application/rss+xml" />
     <description>Adverse agent</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Adverse agent</title>
@@ -15,17 +15,17 @@
     <item>
       <title>L2RPN Hackathon 2020 - Robustness Track</title>
       <link>https://prasang-gupta.github.io/project/l2rpn/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/l2rpn/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#58D68D&#34;&gt;We achieved&lt;/span&gt; &lt;span style=&#34;color:#52BE80;font-style:bold;font-size:120%&#34;&gt;28th rank&lt;/span&gt; &lt;span style=&#34;color:#58D68D&#34;&gt;in the hackathon.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;color:#33cc33&#34;&gt;We achieved&lt;/span&gt; &lt;span style=&#34;color:#33cc33;font-style:bold;font-size:120%&#34;&gt;$28^{th}$ rank&lt;/span&gt; &lt;span style=&#34;color:#33cc33&#34;&gt;in the hackathon.&lt;/span&gt; (&lt;span style=&#34;color:#33cc33;font-style:bold;font-size:100%&#34;&gt; $21^{st}$ highest score&lt;/span&gt; )&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of L2RPN (Learning to Run a Power Network) 2020 hackathon - Robustness Track was to build a robust agent that would be keep delivering reliable electricity everywhere and also operate the grid safely when an agent takes unknown adversarial actions at regular intervals.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The dataset contained episodes spanning different adversarial actions taken by the agent. The agent could terminate any 1 of the 10 possible power lines (some of them being high voltage lines). Our agent was to be evaluated on how long it can provide reliable power to consumers without causing blackout. Once a blackout occurs, it is game over for that episode. The operation cost to be minimized included powerline losses, redispatch cost and blackout cost.&lt;/p&gt;
 &lt;p&gt;Every substation in the competition grid had a &amp;ldquo;double busbar layout&amp;rdquo;. Hence, there was a choice of bus for making a connection from one of the bus to a grid object. Due to this and the medium sized grid used, the action space was of the order of 10^5 with the combinatorial action space reaching infinity.&lt;/p&gt;
 &lt;p&gt;Our approach was derived from a previous &lt;a href=&#34;https://github.com/ZM-Learn/L2RPN_WCCI_a_Solution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;public solution&lt;/a&gt; for this competition. THe idea was to reduce the action space and train 2 A3C models with different training parameters.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;We managed to improve upon the baseline set and managed to achieve a score of 10.84, which was the 21st highest score on the leaderboard, gaining us 28th rank.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;We managed to improve upon the baseline set and managed to achieve a score of 10.84, which was the $21^{st}$ highest score on the leaderboard, gaining us $28^{th}$ rank.&lt;/p&gt;
 </description>
     </item>
     

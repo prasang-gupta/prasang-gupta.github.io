@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. &lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;Achieved 2nd rank in the hackathon&lt;/span&gt;." />
+  <meta name="description" content="Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. &lt;span style=&#34;color:#33cc33;font-style:bold;font-size:120%&#34;&gt;Achieved $2^{nd}$ rank in the hackathon&lt;/span&gt;." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://prasang-gupta.github.io/project/websiteuidetection/" />
@@ -60,6 +60,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -207,9 +210,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -292,16 +295,16 @@
   <meta property="og:site_name" content="Prasang Gupta" />
   <meta property="og:url" content="https://prasang-gupta.github.io/project/websiteuidetection/" />
   <meta property="og:title" content="HTML UI element extraction | Prasang Gupta" />
-  <meta property="og:description" content="Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. &lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;Achieved 2nd rank in the hackathon&lt;/span&gt;." /><meta property="og:image" content="https://prasang-gupta.github.io/project/websiteuidetection/featured.png" />
+  <meta property="og:description" content="Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. &lt;span style=&#34;color:#33cc33;font-style:bold;font-size:120%&#34;&gt;Achieved $2^{nd}$ rank in the hackathon&lt;/span&gt;." /><meta property="og:image" content="https://prasang-gupta.github.io/project/websiteuidetection/featured.png" />
     <meta property="twitter:image" content="https://prasang-gupta.github.io/project/websiteuidetection/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-07-01T00:00:00&#43;00:00"
+        content="2021-09-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-07-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-09-01T00:00:00&#43;00:00">
   
 
   
@@ -331,8 +334,8 @@
     "https://prasang-gupta.github.io/project/websiteuidetection/featured.png"
   ],
   
-  "datePublished": "2021-07-01T00:00:00Z",
-  "dateModified": "2021-07-01T00:00:00Z",
+  "datePublished": "2021-09-01T00:00:00Z",
+  "dateModified": "2021-09-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -347,7 +350,7 @@
       "url": "https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. \u003cspan style=\"color:#5DADE2;font-style:bold;font-size:120%\"\u003eAchieved 2nd rank in the hackathon\u003c/span\u003e."
+  "description": "Extracted HTML UI elements from wireframe drawings of websites and website screenshots using advanced image pre-processing and confidence cutoff variation. \u003cspan style=\"color:#33cc33;font-style:bold;font-size:120%\"\u003eAchieved $2^{nd}$ rank in the hackathon\u003c/span\u003e."
 }
 </script>
 
@@ -786,7 +789,7 @@
     
       
     
-    Jul 1, 2021
+    Sep 1, 2021
   </span>
   
 
@@ -887,14 +890,14 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><span style="color:#58D68D">We achieved</span> <span style="color:#52BE80;font-style:bold;font-size:120%">3rd rank</span> <span style="color:#58D68D">in the hackathon.</span></p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+      <p><span style="color:#33cc33">We achieved</span> <span style="color:#33cc33;font-style:bold;font-size:120%">$2^{nd}$ rank</span> <span style="color:#33cc33">in the hackathon.</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">AIM</a></span></p>
 <p>The aim of this hackathon was to localise and identify several different HTML UI elements in hand-drawn wireframe drawings of websites as well as for screenshots of real websites.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">DETAILS</a></span></p>
 <p>The dataset provided for the hackathon contained about 3200 wireframe drawings of websites. The goal was to identify the different HTML UI elemnents present in the image, such as &ldquo;Text Box&rdquo;, &ldquo;Button&rdquo;, &ldquo;Image&rdquo;, etc. Hence, it boiled down to an object detection problem. It also included another dataset containing screenshots of real websites. The problem remained the same for both the datasets.</p>
 <p>We used several different Object Detection techniques and decided on using the just released SOTA model YOLOv5. We tried different flavours of YOLOv5 and since inference time was not a bar, we went ahead with the XL version of the same to boost performance. We also used pre-trained weights and performed a LR scheduler study to boost the scores even further.</p>
 <p>We also observed that our model was giving out good predictions for the common elements with high confidences, but was not giving outputs for the more uncommon elements. Hence, we performed a study to change the confidence cutoff levels to optimise it for the use case and adjust it according to the distribution in the data. This allowed us to achieve near-perfect performance level of 0.95 F1 score on the validation set.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">IMPACT</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">IMPACT</a></span></p>
 <p>The solution built was performing really good on unseen test images managing an mAP value of 0.82. This model was later swapped with the last year&rsquo;s model in the already developed pipeline to allow rapid prototyping of websites and dashboards.</p>
 
     </div>
@@ -1165,7 +1168,7 @@
       
       <li><a href="/publication/clef2021/">UI element detection from wireframe drawings of websites</a></li>
       
-      <li><a href="/project/deepfakeaudio/">Zero-Shot Deepfake Generation - Audio</a></li>
+      <li><a href="/project/contractlifecyclemgmnt/">Contract Lifecycle Management (CLM)</a></li>
       
     </ul>
   </div>
@@ -1218,7 +1221,7 @@
     
     <a href="/publication/clef2021/"  class="summary-link">
       <div class="article-style">
-        <span style="color:#5DADE2;font-style:bold">12th International Conference of the CLEF Association (CLEF 2021) - Bucharest, Romania</span>
+        <a class="mt-1">12$^{th}$ International Conference of the CLEF Association (CLEF 2021) - Bucharest, Romania</a>
       </div>
     </a>
     
@@ -1473,7 +1476,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.82e015a30b65c328f65887c2b888afd6.js"></script>
+    <script src="/en/js/wowchemy.min.26bc5a5b73c468c9e767656a378ac5e3.js"></script>
 
     
 

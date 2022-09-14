@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Created a web-hosted demo to generate audio from text in the voice of the user with a voice sample size of barely 1 minute using a zero-shot audio generation model" />
+  <meta name="description" content="Explored and created a web-hosted demo for a zero-shot deepfake audio generation model to generate audio from text using embeddings of short reference audio clips" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://prasang-gupta.github.io/project/deepfakeaudio/" />
@@ -60,6 +60,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -207,9 +210,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -291,17 +294,17 @@
   
   <meta property="og:site_name" content="Prasang Gupta" />
   <meta property="og:url" content="https://prasang-gupta.github.io/project/deepfakeaudio/" />
-  <meta property="og:title" content="Zero-Shot Deepfake Generation - Audio | Prasang Gupta" />
-  <meta property="og:description" content="Created a web-hosted demo to generate audio from text in the voice of the user with a voice sample size of barely 1 minute using a zero-shot audio generation model" /><meta property="og:image" content="https://prasang-gupta.github.io/project/deepfakeaudio/featured.png" />
+  <meta property="og:title" content="Zero-Shot Deepfake Audio Generation | Prasang Gupta" />
+  <meta property="og:description" content="Explored and created a web-hosted demo for a zero-shot deepfake audio generation model to generate audio from text using embeddings of short reference audio clips" /><meta property="og:image" content="https://prasang-gupta.github.io/project/deepfakeaudio/featured.png" />
     <meta property="twitter:image" content="https://prasang-gupta.github.io/project/deepfakeaudio/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-03-01T00:00:00&#43;00:00"
+        content="2022-04-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2022-03-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-04-01T00:00:00&#43;00:00">
   
 
   
@@ -325,14 +328,14 @@
     "@type": "WebPage",
     "@id": "https://prasang-gupta.github.io/project/deepfakeaudio/"
   },
-  "headline": "Zero-Shot Deepfake Generation - Audio",
+  "headline": "Zero-Shot Deepfake Audio Generation",
   
   "image": [
     "https://prasang-gupta.github.io/project/deepfakeaudio/featured.png"
   ],
   
-  "datePublished": "2022-03-01T00:00:00Z",
-  "dateModified": "2022-03-01T00:00:00Z",
+  "datePublished": "2022-04-01T00:00:00Z",
+  "dateModified": "2022-04-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -347,7 +350,7 @@
       "url": "https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Created a web-hosted demo to generate audio from text in the voice of the user with a voice sample size of barely 1 minute using a zero-shot audio generation model"
+  "description": "Explored and created a web-hosted demo for a zero-shot deepfake audio generation model to generate audio from text using embeddings of short reference audio clips"
 }
 </script>
 
@@ -363,7 +366,7 @@
 
 
 
-  <title>Zero-Shot Deepfake Generation - Audio | Prasang Gupta</title>
+  <title>Zero-Shot Deepfake Audio Generation | Prasang Gupta</title>
 </head>
 
 
@@ -766,7 +769,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Zero-Shot Deepfake Generation - Audio</h1>
+  <h1>Zero-Shot Deepfake Audio Generation</h1>
 
   
   <p class="page-subtitle"><span style="font-size:80%;color:#5DADE2">[ PwC US ] </span><span style="font-size:80%"><a href="https://www.linkedin.com/in/anudeepimmidisetty/" target="_blank">Anudeep Immidisetty</a>, <a href="https://www.linkedin.com/in/ameliabauer/" target="_blank">Amelia Bauer</a>, Prasang Gupta</span></p>
@@ -786,7 +789,7 @@
     
       
     
-    Mar 1, 2022
+    Apr 1, 2022
   </span>
   
 
@@ -882,12 +885,13 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+      <p><span style="font-style:bold;font-size:120%"><a class="mt-1">AIM</a></span></p>
 <p>The aim of this project was to create a demo for generating speech from text in the voice of the user given the least amount of sample possible.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">DETAILS</a></span></p>
 <p>As the aim of this study was to create a demo, we chose to go ahead with Zero-Shot model as it takes practically no time to train and can start giving good results even with very little amount of sample data. The tradeoff with accuracy was accepted in favour of time. We tested different models, the most popular being YourTTS, SCGlowTTS and SV2TTS. On the basis of qualitative assessment on the representative test dataset, which included both male and female audio samples in 3 different accents (American, British and Indian), YourTTS model was selected as the clear winner.</p>
 <p>After finalising the model, this was tested further for robustness and a minimum sample audio time was estimated based off of these tests and it came out to be 1 minute for getting decent results in most cases. We then deployed this solution on an internal hosting site and created an interactive demo using our developed model as the backend. A representative set of 10 small sentences were obtained which contain as many different phonetics as possible and then a feature was added to record the user speak these sentences.</p>
-<p>After running these samples through the model, which takes about a minute, the user would be able to hear their deepfake speaking 5 different sentences that were not a part of the representative set in their voice.</p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">IMPACT</a></span></p>
+<p>After running these samples through the model, which takes about a minute, the user would be able to hear their deepfake speaking 5 different sentences that were not a part of the representative set in their voice. This rounded off a user-friendly demo that can be used for GTM strategies.</p>
 
     </div>
 
@@ -931,7 +935,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;text=Zero-Shot%20Deepfake%20Generation%20-%20Audio" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;text=Zero-Shot%20Deepfake%20Audio%20Generation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -944,7 +948,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;t=Zero-Shot%20Deepfake%20Generation%20-%20Audio" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;t=Zero-Shot%20Deepfake%20Audio%20Generation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -957,7 +961,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Zero-Shot%20Deepfake%20Generation%20-%20Audio&amp;body=https://prasang-gupta.github.io/project/deepfakeaudio/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Zero-Shot%20Deepfake%20Audio%20Generation&amp;body=https://prasang-gupta.github.io/project/deepfakeaudio/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -970,7 +974,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;title=Zero-Shot%20Deepfake%20Generation%20-%20Audio" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;title=Zero-Shot%20Deepfake%20Audio%20Generation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -983,7 +987,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Zero-Shot%20Deepfake%20Generation%20-%20Audio%20https://prasang-gupta.github.io/project/deepfakeaudio/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Zero-Shot%20Deepfake%20Audio%20Generation%20https://prasang-gupta.github.io/project/deepfakeaudio/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -996,7 +1000,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;title=Zero-Shot%20Deepfake%20Generation%20-%20Audio" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://prasang-gupta.github.io/project/deepfakeaudio/&amp;title=Zero-Shot%20Deepfake%20Audio%20Generation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1149,13 +1153,13 @@
       
       <li><a href="/project/modelparallelism/">Model Parallelism for Inference at edge</a></li>
       
-      <li><a href="/project/worldsio/">Worlds.io</a></li>
+      <li><a href="/project/spatialai/">Spatial  AI</a></li>
       
       <li><a href="/project/demandprediction/">Demand Prediction with Competition Analysis</a></li>
       
       <li><a href="/project/activelearning/">Active Learning</a></li>
       
-      <li><a href="/project/edgelivemodels/">Implementation of Live models on Edge</a></li>
+      <li><a href="/project/edgelivemodels/">Implementation of live models on edge</a></li>
       
     </ul>
   </div>
@@ -1345,7 +1349,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.82e015a30b65c328f65887c2b888afd6.js"></script>
+    <script src="/en/js/wowchemy.min.26bc5a5b73c468c9e767656a378ac5e3.js"></script>
 
     
 

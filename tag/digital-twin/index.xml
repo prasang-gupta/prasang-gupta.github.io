@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/digital-twin/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/digital-twin/index.xml" rel="self" type="application/rss+xml" />
     <description>Digital Twin</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Digital Twin</title>
@@ -13,13 +13,13 @@
     </image>
     
     <item>
-      <title>Worlds.io</title>
-      <link>https://prasang-gupta.github.io/project/worldsio/</link>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://prasang-gupta.github.io/project/worldsio/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <title>Spatial  AI</title>
+      <link>https://prasang-gupta.github.io/project/spatialai/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prasang-gupta.github.io/project/spatialai/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of this study was to test out some of the features offered by Worlds.io and create a generalised digital twin solution that can be leveraged in future projects. This would include generating a digital replication of their current environment and answer some of the questions based off of that with some additional analysis to allow clients to make better oeprational and strategic decisions.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;animation.gif&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;We took the live footage provided by the vendor in New York City&amp;rsquo;s Bryant Park as a case study. A YOLO model was put on the raw camera footage to capture some common objects like people, bins, animals (pets) etc. This was then converted into a streaming data format and sent to cloud with approximate latitude and longitude values as provided by the vendor based on the camera&amp;rsquo;s location and field of view. These lat-lon values were then converted into cartesian coordinates, effectively treating Bryant park in a 2D plane for getting the data ready for digital twin studies. We also created a few zones and mapped the coordinates accordingly.&lt;/p&gt;
 &lt;p&gt;The conversion to cartesian coordinates helped us to map the pedestrian movement patterns in the field of view. Additionally, we also extracted other information to answer questions like:&lt;/p&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;How many people per hour, walking speed, which way are they going,&lt;/li&gt;
 &lt;li&gt;What % of people are stopping?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We were able to run analytics on the video feed and the derived variables. Also, we were able to generate a digital twin using the converted coordinates. This helped us build capability for any future projects that might entail the use of these technologies.&lt;/p&gt;
 </description>
     </item>

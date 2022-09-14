@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Implemented a solution that uses model parallelism for speeding up inference at the edge by distributing a single model across different devices" />
+  <meta name="description" content="Explored distributing model components across different devices to enable running large models on edge with multiple smaller devices" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://prasang-gupta.github.io/project/modelparallelism/" />
@@ -60,6 +60,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -207,9 +210,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -292,16 +295,16 @@
   <meta property="og:site_name" content="Prasang Gupta" />
   <meta property="og:url" content="https://prasang-gupta.github.io/project/modelparallelism/" />
   <meta property="og:title" content="Model Parallelism for Inference at edge | Prasang Gupta" />
-  <meta property="og:description" content="Implemented a solution that uses model parallelism for speeding up inference at the edge by distributing a single model across different devices" /><meta property="og:image" content="https://prasang-gupta.github.io/project/modelparallelism/featured.png" />
+  <meta property="og:description" content="Explored distributing model components across different devices to enable running large models on edge with multiple smaller devices" /><meta property="og:image" content="https://prasang-gupta.github.io/project/modelparallelism/featured.png" />
     <meta property="twitter:image" content="https://prasang-gupta.github.io/project/modelparallelism/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-11-01T00:00:00&#43;00:00"
+        content="2022-01-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-11-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-01-01T00:00:00&#43;00:00">
   
 
   
@@ -331,8 +334,8 @@
     "https://prasang-gupta.github.io/project/modelparallelism/featured.png"
   ],
   
-  "datePublished": "2021-11-01T00:00:00Z",
-  "dateModified": "2021-11-01T00:00:00Z",
+  "datePublished": "2022-01-01T00:00:00Z",
+  "dateModified": "2022-01-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -347,7 +350,7 @@
       "url": "https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Implemented a solution that uses model parallelism for speeding up inference at the edge by distributing a single model across different devices"
+  "description": "Explored distributing model components across different devices to enable running large models on edge with multiple smaller devices"
 }
 </script>
 
@@ -786,7 +789,7 @@
     
       
     
-    Nov 1, 2021
+    Jan 1, 2022
   </span>
   
 
@@ -898,13 +901,40 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+      <p><span style="font-style:bold;font-size:120%"><a class="mt-1">AIM</a></span></p>
 <p>The aim of this project was to create a solution that can be used to train a model that can be split into multiple pieces and can be run in parallel on multiple separate devices.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
-<p><img src="architecture.png" alt="Solution Architecture"></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">DETAILS</a></span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-solution-architecture">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" >
+        <img alt="Solution Architecture" srcset="
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_215c88f36fa3407aa164683e7c3e7ca6.png 400w,
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_37006373126bde36e2cc0a8a4e097abb.png 760w,
+               /project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/modelparallelism/architecture_hub5f90f1de448dc6defbc2ca2b31e2b14_73424_215c88f36fa3407aa164683e7c3e7ca6.png"
+               width="760"
+               height="120"
+               loading="lazy" data-zoomable class=" img-light" /></div>
+  </div><figcaption>
+      Solution Architecture
+    </figcaption></figure>
 <p>The architecture used was the recently published DeCNN (Decoupled CNN) network. The authors had used GConv with Channel Shuffle and added other network and OS level modifications to improve the performance of the decoupled architecture. For initial testing, we only focused on Scheme 1 and ignored other optimisations to establish a baseline.</p>
 <p>We used the tiny imagenet dataset and Resnet-34 model for testing and comparing the standard CNN results with DeCNN. We compared based on the performance (accuracy metrics) and the time taken to run inference on a fixed batch of data. It was found that there was a performance decrease by using DeCNN as some of the information is lost while doing channel shuffling. To counter that, we used 1.5x kernels as in the standard CNN to keep the performance comparable. Even while using just the Scheme 1 mentioned above, we got about 15% bump up in inference speeds with just 2 devices. We expect that this gap would increase with larger models and with more number of parallel devices.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">IMPACT</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">IMPACT</a></span></p>
 <p>The solution developed can be used to train models specifically for running on smaller edge devices. This is especially helpful as no single device can hold the full model in memory at the edge due to size and compute limitations and this would help in running bigger and better models at the edge with no added requirement of a heavy compute engine deployment.</p>
 
     </div>
@@ -1161,11 +1191,11 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/worldsio/">Worlds.io</a></li>
+      <li><a href="/project/spatialai/">Spatial  AI</a></li>
       
-      <li><a href="/project/edgelivemodels/">Implementation of Live models on Edge</a></li>
+      <li><a href="/project/edgelivemodels/">Implementation of live models on edge</a></li>
       
-      <li><a href="/project/deepfakeaudio/">Zero-Shot Deepfake Generation - Audio</a></li>
+      <li><a href="/project/deepfakeaudio/">Zero-Shot Deepfake Audio Generation</a></li>
       
       <li><a href="/project/distributededge/">Distributed Edge Compute</a></li>
       
@@ -1359,7 +1389,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.82e015a30b65c328f65887c2b888afd6.js"></script>
+    <script src="/en/js/wowchemy.min.26bc5a5b73c468c9e767656a378ac5e3.js"></script>
 
     
 

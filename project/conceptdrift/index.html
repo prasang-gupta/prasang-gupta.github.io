@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Built a scikit-learn-like toolkit with capabilities to detect concept drift in image, text or audio data using an array of drift detection methods for monitoring and extending the life of production models" />
+  <meta name="description" content="Explored concept drift and built an sklearn-like toolkit to detect drift in image, text or audio data using multiple drift detection methods for monitoring and extending life of production models" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://prasang-gupta.github.io/project/conceptdrift/" />
@@ -60,6 +60,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -207,9 +210,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -292,16 +295,16 @@
   <meta property="og:site_name" content="Prasang Gupta" />
   <meta property="og:url" content="https://prasang-gupta.github.io/project/conceptdrift/" />
   <meta property="og:title" content="Concept Drift Detection with Chatbots | Prasang Gupta" />
-  <meta property="og:description" content="Built a scikit-learn-like toolkit with capabilities to detect concept drift in image, text or audio data using an array of drift detection methods for monitoring and extending the life of production models" /><meta property="og:image" content="https://prasang-gupta.github.io/project/conceptdrift/featured.png" />
+  <meta property="og:description" content="Explored concept drift and built an sklearn-like toolkit to detect drift in image, text or audio data using multiple drift detection methods for monitoring and extending life of production models" /><meta property="og:image" content="https://prasang-gupta.github.io/project/conceptdrift/featured.png" />
     <meta property="twitter:image" content="https://prasang-gupta.github.io/project/conceptdrift/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2021-07-01T00:00:00&#43;00:00"
+        content="2021-10-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2021-07-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-10-01T00:00:00&#43;00:00">
   
 
   
@@ -331,8 +334,8 @@
     "https://prasang-gupta.github.io/project/conceptdrift/featured.png"
   ],
   
-  "datePublished": "2021-07-01T00:00:00Z",
-  "dateModified": "2021-07-01T00:00:00Z",
+  "datePublished": "2021-10-01T00:00:00Z",
+  "dateModified": "2021-10-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -347,7 +350,7 @@
       "url": "https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Built a scikit-learn-like toolkit with capabilities to detect concept drift in image, text or audio data using an array of drift detection methods for monitoring and extending the life of production models"
+  "description": "Explored concept drift and built an sklearn-like toolkit to detect drift in image, text or audio data using multiple drift detection methods for monitoring and extending life of production models"
 }
 </script>
 
@@ -786,7 +789,7 @@
     
       
     
-    Jul 1, 2021
+    Oct 1, 2021
   </span>
   
 
@@ -884,9 +887,9 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+      <p><span style="font-style:bold;font-size:120%"><a class="mt-1">AIM</a></span></p>
 <p>The aim of this project was to create a drift detection toolkit that can be easily used to detect drift in any type of data (image, audio or text) using a multitude of different drift detection methods to suit every problem under the sun. We also tested this toolkit&rsquo;s ease of use by several case studies of different mock data types and also by integrating this with a chatbot built using RASA architecture to generate a novel drift-aware monitored chatbot.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">DETAILS</a></span></p>
 <p>The drift detection toolkit was built using several different drift detection methods like :</p>
 <table>
 <thead>
@@ -915,9 +918,36 @@
 </tbody>
 </table>
 <p>We implemented these methods and verified that these methods are functioning properly using curated open-source datasets. After verifying all these methods for different types of data (text, audio and images), we implemented an integrated architecture with a chatbot built using RASA framework.</p>
-<p><img src="architecture.png" alt="RASA process flow"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-rasa-process-flow">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" >
+        <img alt="RASA process flow" srcset="
+               /project/conceptdrift/architecture_hu33e64db526110706ea522e7294c7828c_88356_2a4979ed24c2fd3cbcdcf52825f299e9.png 400w,
+               /project/conceptdrift/architecture_hu33e64db526110706ea522e7294c7828c_88356_478f1884e70c51c3c2bfed12ad677330.png 760w,
+               /project/conceptdrift/architecture_hu33e64db526110706ea522e7294c7828c_88356_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/conceptdrift/architecture_hu33e64db526110706ea522e7294c7828c_88356_2a4979ed24c2fd3cbcdcf52825f299e9.png"
+               width="760"
+               height="440"
+               loading="lazy" data-zoomable class=" img-light" /></div>
+  </div><figcaption>
+      RASA process flow
+    </figcaption></figure>
 <p>The process flow diagram shows the working of the integrated system. We implemented several novel methods that ensured our solution remained as general as possible and it does not hamper the whole process in any way whatsoever. Additionally, in case drift is detected, we also made a training pipeline that would incorporate the changes in the model weights without having any model downtime.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">IMPACT</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">IMPACT</a></span></p>
 <p>The solution developed can be implemented with most of the chatbots that are currently in production. Implementing our system would ensure that the model does not lose intent quickly, and if it does, then proper notifications are being provided to the user based on the drift detection systems in place. It would also provide the developer with all the data that is needed to troubleshoot any issues and if needed, retrain the model to counter the drift without experiencing any downtimes.</p>
 
     </div>
@@ -1180,13 +1210,13 @@
       
       <li><a href="/project/rlisia/">Intelligent Systematic Investment Agent</a></li>
       
-      <li><a href="/project/deepfakeaudio/">Zero-Shot Deepfake Generation - Audio</a></li>
+      <li><a href="/project/contractlifecyclemgmnt/">Contract Lifecycle Management (CLM)</a></li>
+      
+      <li><a href="/project/deepfakeaudio/">Zero-Shot Deepfake Audio Generation</a></li>
       
       <li><a href="/project/modelparallelism/">Model Parallelism for Inference at edge</a></li>
       
       <li><a href="/project/rtddocumentation/">Read-The-Docs Documentation Templatisation</a></li>
-      
-      <li><a href="/project/contractlifecyclemgmnt/">Contract Lifecycle Management (CLM)</a></li>
       
     </ul>
   </div>
@@ -1239,7 +1269,7 @@
     
     <a href="/publication/cdpatent/"  class="summary-link">
       <div class="article-style">
-        <span style="color:#5DADE2;font-style:bold">Patent Pending (US Patent Office)</span>
+        <a class="mt-1">Patent Pending (US Patent Office)</a>
       </div>
     </a>
     
@@ -1481,7 +1511,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.82e015a30b65c328f65887c2b888afd6.js"></script>
+    <script src="/en/js/wowchemy.min.26bc5a5b73c468c9e767656a378ac5e3.js"></script>
 
     
 

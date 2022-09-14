@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. &lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;Achieved 28th rank in the hackathon&lt;/span&gt;" />
+  <meta name="description" content="RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. &lt;span style=&#34;color:#33cc33;font-style:bold;font-size:120%&#34;&gt;Achieved $28^{th}$ rank in the hackathon&lt;/span&gt;" />
 
   
   <link rel="alternate" hreflang="en-us" href="https://prasang-gupta.github.io/project/l2rpn/" />
@@ -60,6 +60,9 @@
   
 
   
+  
+    
+    <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -207,9 +210,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -292,16 +295,16 @@
   <meta property="og:site_name" content="Prasang Gupta" />
   <meta property="og:url" content="https://prasang-gupta.github.io/project/l2rpn/" />
   <meta property="og:title" content="L2RPN Hackathon 2020 - Robustness Track | Prasang Gupta" />
-  <meta property="og:description" content="RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. &lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;Achieved 28th rank in the hackathon&lt;/span&gt;" /><meta property="og:image" content="https://prasang-gupta.github.io/project/l2rpn/featured.png" />
+  <meta property="og:description" content="RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. &lt;span style=&#34;color:#33cc33;font-style:bold;font-size:120%&#34;&gt;Achieved $28^{th}$ rank in the hackathon&lt;/span&gt;" /><meta property="og:image" content="https://prasang-gupta.github.io/project/l2rpn/featured.png" />
     <meta property="twitter:image" content="https://prasang-gupta.github.io/project/l2rpn/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2020-10-01T00:00:00&#43;00:00"
+        content="2020-11-01T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2020-10-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2020-11-01T00:00:00&#43;00:00">
   
 
   
@@ -331,8 +334,8 @@
     "https://prasang-gupta.github.io/project/l2rpn/featured.png"
   ],
   
-  "datePublished": "2020-10-01T00:00:00Z",
-  "dateModified": "2020-10-01T00:00:00Z",
+  "datePublished": "2020-11-01T00:00:00Z",
+  "dateModified": "2020-11-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -347,7 +350,7 @@
       "url": "https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. \u003cspan style=\"color:#5DADE2;font-style:bold;font-size:120%\"\u003eAchieved 28th rank in the hackathon\u003c/span\u003e"
+  "description": "RL-based challenge to robustly maintain an electrical grid without disruptions against an adverse agent. \u003cspan style=\"color:#33cc33;font-style:bold;font-size:120%\"\u003eAchieved $28^{th}$ rank in the hackathon\u003c/span\u003e"
 }
 </script>
 
@@ -786,7 +789,7 @@
     
       
     
-    Oct 1, 2020
+    Nov 1, 2020
   </span>
   
 
@@ -884,15 +887,15 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><span style="color:#58D68D">We achieved</span> <span style="color:#52BE80;font-style:bold;font-size:120%">28th rank</span> <span style="color:#58D68D">in the hackathon.</span></p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">AIM</span></p>
+      <p><span style="color:#33cc33">We achieved</span> <span style="color:#33cc33;font-style:bold;font-size:120%">$28^{th}$ rank</span> <span style="color:#33cc33">in the hackathon.</span> (<span style="color:#33cc33;font-style:bold;font-size:100%"> $21^{st}$ highest score</span> )</p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">AIM</a></span></p>
 <p>The aim of L2RPN (Learning to Run a Power Network) 2020 hackathon - Robustness Track was to build a robust agent that would be keep delivering reliable electricity everywhere and also operate the grid safely when an agent takes unknown adversarial actions at regular intervals.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">DETAILS</span></p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">DETAILS</a></span></p>
 <p>The dataset contained episodes spanning different adversarial actions taken by the agent. The agent could terminate any 1 of the 10 possible power lines (some of them being high voltage lines). Our agent was to be evaluated on how long it can provide reliable power to consumers without causing blackout. Once a blackout occurs, it is game over for that episode. The operation cost to be minimized included powerline losses, redispatch cost and blackout cost.</p>
 <p>Every substation in the competition grid had a &ldquo;double busbar layout&rdquo;. Hence, there was a choice of bus for making a connection from one of the bus to a grid object. Due to this and the medium sized grid used, the action space was of the order of 10^5 with the combinatorial action space reaching infinity.</p>
 <p>Our approach was derived from a previous <a href="https://github.com/ZM-Learn/L2RPN_WCCI_a_Solution" target="_blank" rel="noopener">public solution</a> for this competition. THe idea was to reduce the action space and train 2 A3C models with different training parameters.</p>
-<p><span style="color:#5DADE2;font-style:bold;font-size:120%">IMPACT</span></p>
-<p>We managed to improve upon the baseline set and managed to achieve a score of 10.84, which was the 21st highest score on the leaderboard, gaining us 28th rank.</p>
+<p><span style="font-style:bold;font-size:120%"><a class="mt-1">IMPACT</a></span></p>
+<p>We managed to improve upon the baseline set and managed to achieve a score of 10.84, which was the $21^{st}$ highest score on the leaderboard, gaining us $28^{th}$ rank.</p>
 
     </div>
 
@@ -1150,13 +1153,13 @@
       
       <li><a href="/project/rlisia/">Intelligent Systematic Investment Agent</a></li>
       
-      <li><a href="/project/twitterbiashack/">Twitter Bias Hackathon</a></li>
-      
       <li><a href="/project/websiteuidetection/">HTML UI element extraction</a></li>
+      
+      <li><a href="/project/twitterbiashack/">Twitter Bias Hackathon</a></li>
       
       <li><a href="/project/wireframeuidetection/">HTML UI element extraction</a></li>
       
-      <li><a href="/publication/rlisia/">Intelligent Systematic Investment Agent: an ensemble of deep learning and evolutionary strategies</a></li>
+      <li><a href="/project/contractlifecyclemgmnt/">Contract Lifecycle Management (CLM)</a></li>
       
     </ul>
   </div>
@@ -1346,7 +1349,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.82e015a30b65c328f65887c2b888afd6.js"></script>
+    <script src="/en/js/wowchemy.min.26bc5a5b73c468c9e767656a378ac5e3.js"></script>
 
     
 

@@ -23,16 +23,43 @@
     <item>
       <title>Cross-country Asset Tracking</title>
       <link>https://prasang-gupta.github.io/project/assettracking/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/assettracking/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;PROBLEM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;PROBLEM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The client were facing problems with cargo damage while in transit which were resulting in huge losses for them. Also, since the transit included multiple contractors responsible for different stretches of the overall route, and nobody was taking responsibility for the damages, they were at a loss and had no idea how to rectify this.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;SOLUTION&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;architecture.png&#34; alt=&#34;Solution Architecture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;SOLUTION&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-solution-architecture&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;
+        &lt;img alt=&#34;Solution Architecture&#34; srcset=&#34;
+               /project/assettracking/architecture_hue54687bcbd9ff4b5b81b1383dd755f5a_351565_19ea7e81f4067304a3e99ad795d6d8c0.png 400w,
+               /project/assettracking/architecture_hue54687bcbd9ff4b5b81b1383dd755f5a_351565_1c715ca36d1709ba4205a7e9a925488c.png 760w,
+               /project/assettracking/architecture_hue54687bcbd9ff4b5b81b1383dd755f5a_351565_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://prasang-gupta.github.io/project/assettracking/architecture_hue54687bcbd9ff4b5b81b1383dd755f5a_351565_19ea7e81f4067304a3e99ad795d6d8c0.png&#34;
+               width=&#34;760&#34;
+               height=&#34;326&#34;
+               loading=&#34;lazy&#34; data-zoomable class=&#34; img-light&#34; /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Solution Architecture
+    &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;We created an end-to-end asset tracking system for the client. The clients were given low-cost devices housing different sensors to include them with their shipments. These devices were very small (about 2cm x 2cm x 1cm) and were tested for harsh weather. Also, these devices were equipped with a battery, a GPS and cellular communication technology along with the accelerometer, humidity and temperature sensors. These were configured to be used as one time use devices to save on device recovery costs / logistics. They were configured to report information all along the journey and last the whole shipment time without the need of a recharge.&lt;/p&gt;
 &lt;p&gt;Thresholding was done on the accelerometer sensor housed in the device to store high impacts faced by it, which would directly correlate with the damage faced the equipment. These raw accelerometer values were then configured to be sent to the cloud managed by the manufacturer. This data was then available to be used using simple API requests.&lt;/p&gt;
 &lt;p&gt;The raw data collection and conversion to impact system was built on an application enablement platform. This resulted in quick prototyping and testing of the proof of concept. The processed data was then sent to a live dahsboard which was shared with the client for their perusal. This dashboard offered several important metrics such as the last known location, temperature and battery of the device. It also showed the impact values versus timestamp which were recorded by the device.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;From using this solution, we were able to ascertain different impact values faced by the device during different portions of the journey. This helped the client to visualise and piece together possible regions where the shipment was getting damaged. Our analysis found that most of the impacts registered by the device were when the device was travelling from the factory to the ports, which was contrary to the earlier belief of the client that most of the damage was being caused during the ship route. This allowed the client to focus on that section and helped them save a lot of revenue spent on replacing damaged products as well as save the reputation of the company.&lt;/p&gt;
 </description>
     </item>

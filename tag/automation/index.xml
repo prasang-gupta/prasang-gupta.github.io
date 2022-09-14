@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/automation/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/automation/index.xml" rel="self" type="application/rss+xml" />
     <description>Automation</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Wed, 01 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Automation</title>
@@ -15,13 +15,13 @@
     <item>
       <title>Read-The-Docs Documentation Templatisation</title>
       <link>https://prasang-gupta.github.io/project/rtddocumentation/</link>
-      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/rtddocumentation/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of this project was to create a solution that would auto-create documentation given a code repository with docstrings. The main focus of this solution was be to allow generating quick documentation that can be hosted on Github pages for making it easier to re-use codebases because of a standardised documentation format.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We created a documentation template and chose RTD (Read The Docs) as standard formatting because of its popularity among open source tools. We built 2 methods within the solution, first focused on generating and hosting documentation quickly (under 10 minutes) and the second focused on learning the nitty-gritties of how Sphinx works and providing much more room for modifications and personalisation. This system can also be used to generate documentation in PDF format using latex.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The solution was used widely across different teams and it allowed easy re-use of code. It also cultivated a good culture of writing docstrings in functions and classes across the whole team.&lt;/p&gt;
 </description>
     </item>
@@ -29,11 +29,11 @@
     <item>
       <title>Automated PPT content editor</title>
       <link>https://prasang-gupta.github.io/project/yvce/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/yvce/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of this project was to generate a solution that would auto-format any PPT in PwC-compliant format. The changes included several editorial changes (word alternatives, punctuations) and branding changes (colors, formatting). It also included aligning any misaligned objects present in the PPT.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;We decided to edit the underlying XML format of the presentation (using the open office lxml format) in addition to actually editing the PPT itself. We wrote code to parse the PPT in an editable format and then created a modular structure to work on different portions of the PPT. Some modules were rule-based, some were logic driven based on the requirements and some modules incorporated ML solutions developed for sub-problems wherever possible. Some of the modules built were:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -96,7 +96,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This solution built was deployed on an internal hosting service and was made available as a service. The total processing time for an average presentation was about 5 minutes with all the modules active. This brought down the time to manually review and format average presentations from 30 minutes to about 10 minutes. The solution was not perfect, but it helped ensure that most of the repetitive tasks are taken care of by the code and only final inspection with some modifications need to be done by the manual reviewers, saving thousands of manhours for the firm.&lt;/p&gt;
 </description>
     </item>

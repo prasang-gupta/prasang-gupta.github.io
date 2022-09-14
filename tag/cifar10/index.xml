@@ -5,7 +5,7 @@
     <link>https://prasang-gupta.github.io/tag/cifar10/</link>
       <atom:link href="https://prasang-gupta.github.io/tag/cifar10/index.xml" rel="self" type="application/rss+xml" />
     <description>CIFAR10</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Prasang Gupta</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prasang-gupta.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>CIFAR10</title>
@@ -15,11 +15,11 @@
     <item>
       <title>Demand Prediction with Competition Analysis</title>
       <link>https://prasang-gupta.github.io/project/demandprediction/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/demandprediction/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of this study was to predict consumer demand using data from competition and infusing it with other datasets that influence demand like mobility and demographic variables. The other goal was to correct a proprietary mobility dataset used by PwC to incorporate for mobility changes brought on by COVID restrictions.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The proprietary dataset mentioned had several flaws including data inconsistencies over months and years and noisy data which was not helping in developing stable models. It also didn&amp;rsquo;t account for any socio-economic variables based on the demographics of the region. To correct this, the proprietary dataset was merged with demographics variables based on the location and some feature engineering was done to get the mobility in radii of 1km to 5km based on the store location. The final sales value was kept as the dependent field for the model.&lt;/p&gt;
 &lt;p&gt;Multiple model architectures were tried to model this information to correct the mobility, including ML and DL models. Finally, a voting ensemble method was selected which was modelling the corrected demand with an accuracy of about 70%.&lt;/p&gt;
 &lt;p&gt;To bump up the numbers further, an aerial snapshot of the region around the score was obtained from Google Satellite API at a tuned zoom level and a segmentation exercise was performed on the image to extract the type of region around the store. This was expected to bring another dimension of immediate demographics in the dataset. This was done by extracting the coverage area of different colors based on pixel masks :&lt;/p&gt;
@@ -28,7 +28,7 @@
 &lt;li&gt;Green (signifying agriculture, parks, vegetation, etc)&lt;/li&gt;
 &lt;li&gt;White (signifying roof-tops, buildings, etc)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The final model with all the variables included (engineered visits from proprietary data, Google mobility data, demographics data and derived immediate demographics of the store from satellite images) achieved a test accuracy of 75%. This improved the quality of the mobility data and impacted tens of projects that utilised this mobility dataset helping in building much more accurate and robust models for client deliveries.&lt;/p&gt;
 </description>
     </item>
@@ -36,14 +36,14 @@
     <item>
       <title>Active Learning</title>
       <link>https://prasang-gupta.github.io/project/activelearning/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://prasang-gupta.github.io/project/activelearning/</guid>
-      <description>&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;AIM&lt;/span&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;AIM&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The aim of the study was to build out a pipeline for active learning that other projects with scarce labelled data will leverage for model building. It also included trying the effectiveness of active learning on a standard dataset and evaluate different techniques.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;DETAILS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;DETAILS&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The dataset chosen for this study was CIFAR10. This dataset contains 60,000 32x32 images with 10 unique classes. We used a maximum of 10,000 images at each time for training purposes. This study&amp;rsquo;s focus was to compare the performance of active and passive learning using same number of labelled samples.&lt;/p&gt;
 &lt;p&gt;The passive learning model would be trained on a uniform distribution of the dataset size, however, the active learning model would be initialised with half the training size and then would be trained for the full size by sequential queries. We tried 3 queries in this study : uncertainty, margin sampling and entropy sampling. We achieved better performance with active learning for all the sizes, however, the improvement in performance varied from as low as 1% to a sizable 23%. The details for all the experiments and the queries can be seen in the slides.&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color:#5DADE2;font-style:bold;font-size:120%&#34;&gt;IMPACT&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;font-style:bold;font-size:120%&#34;&gt;&lt;a class=&#34;mt-1&#34;&gt;IMPACT&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The pipeline developed from this project was consecutively used in multiple client projects to improve the modelling capabilities and thrive wherever manually labelling the full dataset was not an option.&lt;/p&gt;
 </description>
     </item>
